@@ -2,9 +2,10 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-gray-50 py-16 px-6">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-900 mb-8">Notre Histoire</h2>
+    <section id="dicover" className="py-16 bg-gray-100">
+    <div className="container mx-auto text-center">
+      <h1 className="text-3xl font-semibold mb-6">Notre histoire</h1>
+
         <p className="text-lg text-gray-700 mb-6 max-w-4xl mx-auto text-justify">
           L’histoire de Click-et-Paf commence dans un moment où l'absurde se rencontre avec la
           réalité. Deux amis, Martin et Sophie, se retrouvaient régulièrement à discuter autour d’un verre de vin, en observant les travers de la société
@@ -62,8 +63,8 @@ const AboutUs = () => {
         <p className="text-lg text-gray-700 mb-6 max-w-4xl mx-auto text-justify">
           Alors, prêt à défier les conventions et à vivre l’expérience Click-et-Paf dans la vraie vie ?
         </p>
-      </div>
-    </section>
+        </div>
+        </section>
   );
 };
 

@@ -12,7 +12,7 @@ const Articles = () => {
     
     <div className="bg-gray-100 min-h-screen"> 
     <HeadProvider>
-        <Title>Mon Blog - Articles</Title>
+        <Title>Blog Click-et-Paf</Title>
         <Meta name="description" content="Explorez notre blog Click-et-paf pour des articles amusants et inspirants sur des expériences insolites, des surprises virtuelles et  des services décalés. Trouvez des idées originales et vivez des moments mémorables !" />
         <Meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, ,expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
         <Meta   name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,6 +33,19 @@ const Articles = () => {
           <p className="mt-4 text-gray-300">Découvrez les derniers articles et tendances.</p>
         </div>
       </header>
+      <nav className="bg-gray-200 py-3">
+        <div className="container mx-auto px-6">
+          <ul className="flex text-sm text-gray-700">
+            <li>
+              <a href="http://click-et-paf.com/" className="hover:text-blue-500"><span>Accueil</span></a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">Articles</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
       <section className="container mx-auto px-6 py-12">
         <div className="mb-12">
