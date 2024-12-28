@@ -14,7 +14,7 @@ const Articles = () => {
     <HeadProvider>
         <Title>Mon Blog - Articles</Title>
         <Meta name="description" content="Explorez notre blog Click-et-paf pour des articles amusants et inspirants sur des expériences insolites, des surprises virtuelles et  des services décalés. Trouvez des idées originales et vivez des moments mémorables !" />
-        <Meta name="keywords" content="clicketpaf, click-et-paf,click, paf, click et action,surprise, ,expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
+        <Meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, ,expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
         <Meta   name="viewport" content="width=device-width, initial-scale=1.0" />
         <Meta name="robots" content="index, follow" />
         <Meta property="og:url" content="http://click-et-paf.com/articles" />
@@ -24,8 +24,7 @@ const Articles = () => {
         <Meta  property="og:type" content="website" />
         <Meta  name="twitter:card" content="summary_large_image" />
         <Meta  name="twitter:title" content="Click-et-paf: Des expériences insolites et des services surprenants" />
-        <Meta name="twitter:description" content="Surprenez vos proches avec des gifles virtuelles et des expériences insolites grâce à Click-et-paf. Offrez des moments uniques et mémorables avec notre service en ligne." />
-        <Meta  name="twitter:image" content="../../../public/images/logo_click_et_paf.webp" />
+        <Meta  name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Click-et-paf."        />        <Meta  name="twitter:image" content="../../../public/images/logo_click_et_paf.webp" />
       </HeadProvider>
  
       <header className="bg-gray-800 text-white py-16">
