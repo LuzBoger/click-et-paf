@@ -1,80 +1,67 @@
-export default function App() {
-  return (
-    <div>
-      <header class="bg shadow-md">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-between h-16">
-            <div class="flex-shrink-0 flex flex-col items-center cursor-pointer">
-              <span className={"font-black text-2xl"}>Click et Paf</span>
-              <span className="text-neutral-300">Gifler à moindre coup !</span>
-            </div>
-            <nav class="hidden md:flex space-x-6">
-              <a href="#features" class="text-gray-300 hover:text-gray-100">
-                Fonctionnalités
-              </a>
-              <a href="#pricing" class="text-gray-300 hover:text-gray-100">
-                Tarifs
-              </a>
-              <a href="#about" class="text-gray-300 hover:text-gray-100">
-                À propos
-              </a>
-            </nav>
-            <div class="flex items-center space-x-4">
-              <a href="/login" class="text-gray-300 hover:text-gray-100">
-                Connexion
-              </a>
-              <a
-                href="/signup"
-                class="px-4 py-2 bg-yellow-4 text-white rounded-md hover:bg-yellow-6"
-              >
-                S'inscrire
-              </a>
-            </div>
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import './App.css';
+import ArticleCard from './components/ArticleCard';
+import Service from './components/Services';
+import Discover from './components/Discover';
 
-            <button class="md:hidden text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-600"></button>
-          </div>
-        </div>
+import Action from './components/Action';
+
+function App() {
+  return (
+    <HelmetProvider>
+      <Helmet>
+        <title>Click-et-Paf | Offrez des Gifles et vivez des expériences uniques</title>
+        <meta
+          name="description"
+          content="Click-et-Paf vous propose des services uniques pour surprendre vos proches avec des gifles décalées, des expériences insolites et des moments inoubliables. Découvrez nos formules originales pour pimenter votre quotidien et offrir des souvenirs mémorables."
+        />
+        <meta
+          name="keywords"
+          content="Click-et-Paf, services insolites, gifles humoristiques, expériences décalées, moments mémorables, idées originales, surprises drôles"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:url" content="https://click-et-paf.com" />
+        <meta property="og:title" content="Click-et-Paf | Services Déjantés pour des Moments Inoubliables" />
+        <meta
+          property="og:description"
+          content="Surprenez vos proches avec des gifles virtuelles et des expériences insolites grâce à Click-et-paf. Offrez des moments uniques et mémorables avec notre service en ligne."
+        />
+        <meta property="og:image" content="../../../public/images/logo_click_et_paf.webp" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Click-et-Paf | Services Déjantés pour des Moments Inoubliables" />
+        <meta
+          name="twitter:description"
+          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences surprenantes, comme les gifles humoristiques, pour ajouter une touche d’absurde à votre vie."
+        />
+        <meta name="twitter:image" content="../../../public/images/logo_click_et_paf.webp" />
+      </Helmet>
+
+      <header className="bg-gray-800 text-white text-center py-16">
+        <h1 className="text-4xl font-bold mb-4">Bienvenue sur Click-et-Paf</h1>
+        <p className="text-lg mb-8">Faites sensation en offrant des gifles  à vos proches !</p>
+        <Action /> 
       </header>
-      <section>
-        <div className="flex flex-col items-center gap-16 pb-2 border-b border-b-dark-7">
-          <h1 class="text-9xl font-black text-center">Click et Paf</h1>
-          <img
-            src="src/assets/logo/will-smith.webp"
-            width={"500px"}
-            alt="Will-smith mettant un gifle légendaire au goat Chris Rock"
-          />
+
+   
+      <section id="dicover" className="py-16 bg-gray-100">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-semibold mb-6">Découvrir Click-et-Paf</h2>
+          <Discover />
         </div>
       </section>
-      <section>
-        <div className="flex items-center gap-16 p-16">
-          <div className="flex flex-col w-1/2 gap-4">
-            <h2 className={"text-2xl w-3/4"}>
-              Le service ultime pour réveiller les esprits : des gifles sur
-              demande
-            </h2>
-            <p>
-              Envie d’un électrochoc pour repartir du bon pied ? Notre service
-              unique vous offre l’opportunité de recevoir une gifle sur mesure,
-              adaptée à vos besoins.
-            </p>
-            <p>
-              Une méthode surprenante pour vous motiver, déstresser ou
-              simplement expérimenter quelque chose de nouveau.
-            </p>
-            <p>
-              Rejoignez-nous chez Click et Paf pour une expérience audacieuse et
-              inoubliable. Nous avons hâte de réveiller votre énergie d’un
-              simple geste !
-            </p>
-            <button>Découvrir nos service</button>
-          </div>
-          <img
-            src="src/assets/slap-power.webp"
-            width={"350px"}
-            alt="Will-smith mettant un gifle légendaire au goat Chris Rock"
-          />
+
+      <section id="services" className="py-16">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-semibold mb-6">Nos Services</h2>
+          <Service />
         </div>
       </section>
-    </div>
+
+      <ArticleCard />
+    </HelmetProvider>
   );
 }
+
+export default App;
