@@ -1,39 +1,49 @@
 export const services = [
-    {
-      title: "La Gifle Thérapeutique",
-      description:
-        "Libérez vos tensions avec une gifle donnée par un professionnel formé, accompagnée d’une phrase motivante. Une expérience cathartique et sécurisée.",
-      icon: "💆‍♂️",
-    },
-    {
-      title: "La Gifle Cinématographique",
-      description:
-        "Vivez une gifle digne des plus grandes scènes de cinéma, avec costumes, répliques cultes et mise en scène complète.",
-      icon: "🎭",
-    },
-    {
-      title: "La Gifle Surprise",
-      description:
-        "Ajoutez de l'adrénaline à votre journée avec une gifle imprévisible, donnée dans un lieu sécurisé et préalablement convenu.",
-      icon: "🎉",
-    },
-    {
-      title: "Le Stage de Gifles",
-      description:
-        "Apprenez à donner et recevoir des gifles théâtrales dans un cadre ludique et sécurisé. Parfait pour les amateurs de théâtre et les curieux.",
-      icon: "🎓",
-    },
-    {
-      title: "La Gifle Sonore",
-      description:
-        "Une gifle amplifiée avec des micros spéciaux pour créer un effet sonore hilarant. Idéal pour capturer en vidéo.",
-      icon: "🔊",
-    },
-    {
-      title: "La Gifle Mémorable",
-      description:
-        "Recevez une gifle capturée en slow-motion avec des effets dramatiques. Gardez un souvenir unique et hilarant.",
-      icon: "🎥",
-    },
-  ];
-  
+  {
+    title: "La Gifle Thérapeutique",
+    description:
+      "Libérez vos tensions avec une gifle administrée par un professionnel, accompagnée d’une phrase motivante. Une expérience cathartique et sécurisée.",
+    icon: "💆‍♂️",
+  },
+  {
+    title: "La Gifle Cinématographique",
+    description:
+      "Vivez une expérience digne des plus grandes scènes de cinéma, avec costumes, répliques cultes et mise en scène spectaculaire.",
+    icon: "🎭",
+  },
+  {
+    title: "La Gifle Surprise",
+    description:
+      "Ajoutez un peu de fun et d’adrénaline à votre journée avec une gifle surprise dans un lieu sécurisé, pour un moment inattendu et mémorable.",
+    icon: "🎉",
+  },
+  {
+    title: "Stage",
+    description:
+      "Apprenez l'art de donner et recevoir ",
+    icon: "🎓",
+  },
+  {
+    title: "La Gifle Sonore",
+    description:
+      "Une gifle amplifiée grâce à des micros spéciaux,. Parfait pour capturer des moments mémorables en vidéo.",
+    icon: "🔊",
+  },
+  {
+    title: "La Gifle Mémorable",
+    description:
+      "Vivez une gifle en slow-motion avec des effets dramatiques pour un souvenir unique et inoubliable à partager.",
+    icon: "🎥",
+  },
+
+
+
+  {
+    title: "La Gifle de Groupe",
+    description:
+      "Organisez un événement mémorable avec vos amis, famille ou collègues. Que ce soit pour un enterrement de vie de garçon, un anniversaire ou un team-building, la Gifle de Groupe est l’expérience idéale.",
+    icon: "🤾‍♂️",
+  },
+
+
+];

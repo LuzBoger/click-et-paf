@@ -23,16 +23,13 @@ const AboutUs = () => {
 
         <p className="text-lg text-gray-700 mb-6 max-w-4xl mx-auto text-justify">
           L’idée était à la fois absurde et audacieuse. Un service qui permettrait aux clients de vivre des sensations extrêmes, des actions physiques mais
-          toujours dans un cadre de jeu, avec une approche humoristique et décalée. Qui n’a jamais rêvé, en plein stress, de pouvoir envoyer un "paf" (dans le
-          respect total des règles de sécurité, bien entendu) pour se libérer d’une tension accumulée ? Ou d'avoir quelqu’un qui réagit à un clic avec une
-          action pleine de surprises, de l’absurde, du décalé ?
+          toujours dans un cadre de jeu, avec une approche humoristique et décalée. 
         </p>
 
         <p className="text-lg text-gray-700 mb-6 max-w-4xl mx-auto text-justify">
           Le concept a pris forme sous le nom de Click-et-Paf : un service unique où les clients
           peuvent choisir parmi une sélection d'expériences physiques et inattendues, allant d’une gifle (lancée par des professionnels formés) à des
-          actions un peu plus farfelues, comme recevoir une pluie de confettis sur la tête à un moment bien précis, ou même un cri libérateur dans une pièce
-          silencieuse. Tout est pensé pour offrir un moment de décompression totale, sans jugement.
+          actions un peu plus farfelues. Tout est pensé pour offrir un moment de décompression totale, sans jugement.
         </p>
 
         <p className="text-lg text-gray-700 mb-6 max-w-4xl mx-auto text-justify">
