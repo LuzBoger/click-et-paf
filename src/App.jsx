@@ -32,7 +32,7 @@ function App() {
           property="og:description"
           content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
-        <meta property="og:image" content="../../../public/images/logo_click_et_paf.webp" />
+        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
@@ -40,9 +40,10 @@ function App() {
           name="twitter:description"
           content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
-        <meta name="twitter:image" content="../../../public/images/logo_click_et_paf.webp" />
+        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
       </Helmet>
-      <Header />
+      <NavBar />
+      <Header title = "Bienvenue sur Click-et-Paf" subtitle = "Faites sensation en offrant des gifles à vos proches !"  />
 
           <Discover />
 

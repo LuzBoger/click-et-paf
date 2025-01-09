@@ -1,15 +1,15 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Importer Link de react-router-dom
 
-function Navbar({}) {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav > 
+    <nav className="bg-gray-800">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="/" className="flex items-center text-white text-2xl font-bold">
-            Click-et-Paf
-         
-        </a>
+        <Link to="/" className="flex items-center text-white text-2xl font-bold">
+          Click-et-Paf
+        </Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white focus:outline-none"
@@ -44,36 +44,36 @@ function Navbar({}) {
             isOpen ? "block" : "hidden"
           } md:flex md:items-center md:space-x-6`}
         >
-          <a
-            href="#home"
+          <Link
+            to="/"
             className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Accueil
-          </a>
-          <a
-            href="#discover"
+          </Link>
+          <Link
+            to="/notre-histoire"
             className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Notre histoire
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            to="/services"
             className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Services
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            to="/blog"
             className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Blog
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
