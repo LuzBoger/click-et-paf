@@ -117,37 +117,18 @@ const FAQ = () => {
             )}
           </div>
 
+
           <div
             className="p-6 bg-white rounded-lg shadow-md cursor-pointer"
             onClick={() => toggleQuestion(4)}
           >
             <h3 className="text-lg font-semibold text-gray-800 flex justify-between items-center">
-              Est-ce sécurisé ?{" "}
+              Où peut-on vivre l'expérience Click-et-Paf ?{" "}
               <span className="text-gray-500">
                 {openQuestion === 4 ? "–" : "+"}
               </span>
             </h3>
             {openQuestion === 4 && (
-              <p className="text-gray-600 mt-2">
-                Oui, toutes nos expériences sont réalisées dans un cadre
-                sécurisé. Chaque action est encadrée par des professionnels, et
-                le consentement est une condition indispensable avant toute
-                participation.
-              </p>
-            )}
-          </div>
-
-          <div
-            className="p-6 bg-white rounded-lg shadow-md cursor-pointer"
-            onClick={() => toggleQuestion(5)}
-          >
-            <h3 className="text-lg font-semibold text-gray-800 flex justify-between items-center">
-              Où peut-on vivre l'expérience Click-et-Paf ?{" "}
-              <span className="text-gray-500">
-                {openQuestion === 5 ? "–" : "+"}
-              </span>
-            </h3>
-            {openQuestion === 5 && (
               <p className="text-gray-600 mt-2">
                 Nos expériences sont disponibles dans nos locaux situés au
                 centre-ville, mais nous proposons également des prestations
