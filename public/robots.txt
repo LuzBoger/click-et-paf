@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: /notre-histoire
+
+Sitemap: https://www.click-et-paf.com/sitemap.xml
