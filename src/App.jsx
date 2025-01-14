@@ -4,31 +4,16 @@ import ArticleCard from './components/ArticleCard';
 import Service from './components/Services';
 import Discover from './components/Discover';
 import NavBar from './components/NavBar';
-import GoogleTagManager from './components/GoogleTagManager';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Header from './components/Header';
 
-const GoogleTagManagerNoscript = () => {
-  useEffect(() => {
-    const noscript = document.createElement("noscript");
-    noscript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58K4RNLW"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
-    document.body.insertAdjacentElement("afterbegin", noscript);
 
-    return () => {
-      document.body.removeChild(noscript);
-    };
-  }, []);
-
-  return null;
-};
 
 function App() {
   return (
     <HelmetProvider>
       <Helmet>
-        <GoogleTagManager />
         <title>Click-et-Paf | Pour des expériences insolites et uniques</title>
         <meta
           name="description"
