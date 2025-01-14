@@ -20,7 +20,7 @@ const Discover = () => {
 
           <Link
             to="/notre-histoire"
-            className="text-blue-500 hover:text-blue-700 focus:text-blue-700 hover:underline focus:outline-none"
+            className="text-blue-600 hover:text-blue-700 focus:text-blue-700 hover:underline focus:outline-none"
             title="Découvrez notre histoire"
           >
             Cliquez ici pour découvrir notre histoire !

@@ -13,6 +13,7 @@ function Navbar() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white focus:outline-none"
+          aria-label="Menu burger"
         >
           <svg
             className="w-6 h-6"
@@ -40,9 +41,8 @@ function Navbar() {
         </button>
 
         <div
-          className={`${
-            isOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-6`}
+          className={`${isOpen ? "block" : "hidden"
+            } md:flex md:items-center md:space-x-6`}
         >
           <Link
             to="/"
