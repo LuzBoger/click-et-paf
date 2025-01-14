@@ -26,6 +26,7 @@ function App() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="ftAWunL-4c94Nb9eY0VWAQDyDcqcgp2snDELV1D-d08" />
         <meta property="og:url" content="https://click-et-paf.com" />
         <meta property="og:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
         <meta
