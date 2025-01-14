@@ -4,11 +4,10 @@ import ArticleCard from './components/ArticleCard';
 import Service from './components/Services';
 import Discover from './components/Discover';
 import NavBar from './components/NavBar';
-
-import Action from './components/Action';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Header from './components/Header';
+
 
 
 function App() {
@@ -42,13 +41,11 @@ function App() {
           content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
         <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+        
       </Helmet>
       <NavBar />
-      <Header title = "Bienvenue sur Click-et-Paf" subtitle = "Faites sensation en offrant des gifles à vos proches !"  />
-
-          <Discover />
-
-
+      <Header title="Bienvenue sur Click-et-Paf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
+      <Discover />
       <section id="services" className="py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-6">Nos Services</h2>
@@ -56,11 +53,10 @@ function App() {
         </div>
       </section>
 
-      
-      <section id="articles" className="py-16 ">
-      <ArticleCard />
-      </section>
 
+      <section id="articles" className="py-16 ">
+        <ArticleCard />
+      </section>
       <FAQ />
 
       <Footer />

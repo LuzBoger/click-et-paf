@@ -3,51 +3,65 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/roboto-regular.woff2') format('woff2'),
-         url('fonts/Roboto-Regular-webfont.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'SF';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/sf-pro-display_regular.woff2') format('woff2'),
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/roboto-regular.woff2') format('woff2'),
+    url('fonts/Roboto-Regular-webfont.woff') format('woff');
+  font-display: swap;
+
 }
-  
-  @layer base {
-      html {
-          font-family: 'Roboto', sans-serif;
-          background: #1C1C1C;
-          color: white
-      }
-      img {
-        @apply inline-block;
-      }
-      .ml-11\.5 {
-        margin-left: 2.875rem; /* 46px */
-      } 
-      .mb-6\.5 {
-        margin-bottom: 1.625rem; /* 26px */
-      }
-      .custom-border {
-        position: relative;
-        /* Ajoutez les styles spécifiques à votre élément ici */
-        width: 200px;
-        height: 100px;
-        background-color: #f0f0f0;
-      }
-  
-      /* Utilisation de la pseudo-classe ::after pour créer la bordure */
-      .custom-border::after {
-        content: '';
-        position: absolute;
-        top: -5px; /* Ajustez selon vos besoins */
-        left: -5px; /* Ajustez selon vos besoins */
-        right: -5px; /* Ajustez selon vos besoins */
-        bottom: -5px; /* Ajustez selon vos besoins */
-        border: 1px solid #dbdbdb; /* Couleur de la bordure */
-      }
+
+@font-face {
+  font-display: swap;
+  font-family: 'SF';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sf-pro-display_regular.woff2') format('woff2'),
+}
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+    background: #1C1C1C;
+    color: white
   }
 
+  img {
+    @apply inline-block;
+  }
+
+  .ml-11\.5 {
+    margin-left: 2.875rem;
+    /* 46px */
+  }
+
+  .mb-6\.5 {
+    margin-bottom: 1.625rem;
+    /* 26px */
+  }
+
+  .custom-border {
+    position: relative;
+    /* Ajoutez les styles spécifiques à votre élément ici */
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+  }
+
+  /* Utilisation de la pseudo-classe ::after pour créer la bordure */
+  .custom-border::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    /* Ajustez selon vos besoins */
+    left: -5px;
+    /* Ajustez selon vos besoins */
+    right: -5px;
+    /* Ajustez selon vos besoins */
+    bottom: -5px;
+    /* Ajustez selon vos besoins */
+    border: 1px solid #dbdbdb;
+    /* Couleur de la bordure */
+  }
+}

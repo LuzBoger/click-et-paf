@@ -52,6 +52,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white"
+            aria-label="Facebook"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +68,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white"
+            aria-label="X"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,6 +84,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white"
+            aria-label="Instagram"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
