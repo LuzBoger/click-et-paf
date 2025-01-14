@@ -6,10 +6,7 @@ function generateSlug(title) {
     .replace(/[\u0300-\u036f]/g, '') 
     .replace(/[^a-z0-9\s-]/g, '') 
     .replace(/\s+/g, '-') 
-
 }
-
-
 
 export const allArticles = [
   {
@@ -106,6 +103,436 @@ export const allArticles = [
  "image": "/images/noel_gifle.webp",
     "imageTitle": "Famille s'amusant avec des défis Click-et-paf autour d'un sapin de Noël."
     },
+    {
+      "id": 9,
+      "title": "La Gifle Thérapeutique : Une Nouvelle Approche du Bien-être",
+      "content": `Dans un monde où le stress et l'anxiété sont omniprésents, une nouvelle approche thérapeutique fait son apparition : la gifle thérapeutique. Click-et-paf, pionnier dans ce domaine, propose une expérience unique qui combine surprise, libération émotionnelle et accompagnement professionnel.
+
+      La Science derrière la Gifle Thérapeutique
+
+      Contrairement aux idées reçues, la gifle thérapeutique n'est pas qu'une simple claque. C'est une technique minutieusement étudiée qui repose sur plusieurs principes :
+
+      - La libération d'endorphines suite au choc contrôlé
+      - L'effet de surprise qui permet de "reset" le cerveau
+      - L'accompagnement psychologique avant et après la séance
+      - La création d'un moment cathartique unique
+
+      Les Bienfaits Observés
+
+      De nombreux clients témoignent des effets positifs de cette thérapie alternative :
+
+      - Réduction immédiate du stress
+      - Sensation de légèreté et de libération
+      - Prise de conscience corporelle
+      - Amélioration de la concentration
+      - Expérience mémorable et transformative
+
+      Un Protocole Rigoureux
+
+      Chaque séance de gifle thérapeutique suit un protocole strict :
+
+      1. Consultation préalable pour évaluer les besoins
+      2. Choix de l'intensité et du type de gifle
+      3. Préparation mentale et physique
+      4. Exécution par un professionnel certifié
+      5. Débriefing et accompagnement post-gifle
+
+      Les Différentes Formules Proposées
+
+      Click-et-paf propose plusieurs variantes de la gifle thérapeutique :
+
+      - La Gifle Douce : pour les débutants
+      - La Gifle Énergique : pour une libération maximale
+      - La Gifle en Groupe : pour une expérience partagée
+      - La Gifle Premium : avec accompagnement VIP
+
+      Témoignages et Résultats
+
+      "Après ma première séance, j'ai ressenti un soulagement immédiat. C'est comme si tous mes soucis avaient été chassés d'un coup !" - Marie, 34 ans
+
+      "Je pensais que c'était une blague, mais les effets sont réels. Je me sens plus léger, plus présent." - Thomas, 28 ans
+
+      Conclusion
+
+      La gifle thérapeutique représente une innovation majeure dans le domaine du bien-être. Bien que surprenante au premier abord, cette approche unique proposée par Click-et-paf offre une alternative efficace aux méthodes traditionnelles de gestion du stress.`,
+        "image": "/images/therapy.webp",
+        "imageTitle": "Séance de gifle thérapeutique professionnelle",
+    },
+    {
+      "id": 10,
+      "title": "Team Building Révolutionnaire : La Gifle qui Soude les Équipes",
+      "content": `Le monde de l'entreprise est en constante évolution, et avec lui, les méthodes de team building. Click-et-paf révolutionne ce domaine en proposant une approche inédite : les séances de gifles collectives encadrées. Une méthode qui fait déjà sensation dans les plus grandes entreprises.
+
+      L'Art de la Cohésion par la Gifle
+
+      Le concept est simple mais efficace : réunir une équipe autour d'une expérience partagée unique et mémorable. Les séances de gifles professionnelles créent des liens inattendus entre collègues et brisent instantanément la glace, même dans les équipes les plus réservées.
+
+      Les Avantages pour l'Entreprise :
+
+      - Renforcement immédiat de la cohésion d'équipe
+      - Réduction des tensions hiérarchiques
+      - Amélioration de la communication
+      - Création de souvenirs communs inoubliables
+      - Développement de la confiance mutuelle
+
+      Nos Formules Entreprise
+
+      1. La Gifle Découverte
+        - Session d'initiation pour les équipes
+        - Exercices de confiance
+        - Débriefing collectif
+
+      2. Le Challenge Inter-Services
+        - Tournoi de gifles amical
+        - Activités de team building
+        - Remise de trophées
+
+      3. La Retraite Corporate
+        - Week-end complet de cohésion
+        - Ateliers de gifles thérapeutiques
+        - Séances de méditation post-gifle
+
+      Impact sur la Productivité
+
+      Les entreprises ayant adopté nos programmes rapportent :
+      - Une augmentation de 150% de la communication inter-services
+      - Une réduction de 75% des conflits internes
+      - Une amélioration notable de l'ambiance au bureau
+
+      Témoignages de Managers
+
+      "Depuis que nous avons organisé la journée Click-et-paf, mes équipes sont plus soudées que jamais. Les barrières sont tombées !" - Laurent, Directeur Marketing
+
+      "J'étais sceptique au début, mais les résultats sont là. Même nos réunions sont plus dynamiques maintenant." - Sophie, DRH
+
+      Sécurité et Professionnalisme
+
+      Chaque session est :
+      - Encadrée par des professionnels certifiés
+      - Adaptée au niveau de chaque participant
+      - Réalisée dans un environnement sécurisé
+      - Suivie d'un débriefing approfondi
+
+      Les Tendances à Venir
+
+      Le "Gifle Building" devient rapidement la nouvelle tendance en matière de cohésion d'équipe. De plus en plus d'entreprises intègrent ces sessions dans leur programme de formation continue, reconnaissant leur potentiel unique pour :
+      - Briser les silos organisationnels
+      - Favoriser l'innovation collaborative
+      - Renforcer l'esprit d'équipe
+
+      Conclusion
+
+      Le team building par la gifle représente une révolution dans le monde de l'entreprise. Cette approche unique proposée par Click-et-paf transforme la dynamique des équipes tout en créant des moments mémorables. Dans un monde professionnel en quête perpétuelle d'innovation, cette méthode s'impose comme la solution idéale pour des équipes plus soudées et plus performantes.`,
+          "image": "/images/teambuilding.webp",
+          "imageTitle": "Séance de team building avec gifles professionnelles"
+  },
+  {
+    "id": 12,
+    "title": "Festivals d'Été : La Gifle Rafraîchissante, Nouvelle Star des Événements !",
+    "content": `L'été 2024 marque un tournant dans l'histoire des festivals avec l'apparition d'une animation inédite : la Gifle Rafraîchissante by Click-et-Paf. Cette expérience révolutionnaire combine rafraîchissement et sensations fortes pour le plus grand plaisir des festivaliers.
+
+    La Gifle qui Rafraîchit
+
+    Imaginez : sous un soleil de plomb, une file de festivaliers attend avec impatience leur tour pour recevoir LA gifle de l'été. Équipée d'un système de brumisation intégré, chaque gifle procure une sensation unique de fraîcheur instantanée.
+
+    Nos Installations Festival :
+
+    1. Le Stand "Gifle & Cool"
+      - Brumisateurs haute performance
+      - Gants rafraîchissants
+      - Zone d'attente climatisée
+      - Photos instantanées
+
+    2. L'Arène des Défis
+      - Concours de gifles rafraîchissantes
+      - Animations collectives
+      - Prix à gagner
+      - Écran géant pour les replays
+
+    3. La Zone VIP "Fresh Slap"
+      - Gifles premium
+      - Cocktails glacés inclus
+      - Espace détente exclusif
+      - Service personnalisé
+
+    Les Avantages pour les Festivals
+
+    - Animation originale et virale
+    - Solution rafraîchissante innovante
+    - Attraction qui crée le buzz
+    - Revenus additionnels
+    - Expérience mémorable
+
+    Témoignages de Festivaliers
+
+    "C'est LA sensation de l'été ! Une gifle et hop, plus de chaleur !" - Alex, 25 ans
+
+    "On fait la queue chaque jour pour se faire gifler, c'est devenu notre rituel festival !" - Emma, 28 ans
+
+    Technologie et Innovation
+
+    Notre système breveté comprend :
+    - Brumisation synchronisée
+    - Contrôle de température
+    - Gants bio-rafraîchissants
+    - Système anti-éclaboussures
+
+    Impact sur les Réseaux
+
+    Le phénomène #GifleRafraichissante explose :
+    - 5M+ de vues sur TikTok
+    - Trending topic sur Twitter
+    - Challenges viraux
+    - Célébrités conquises
+
+    Sécurité et Hygiène
+
+    Nos standards incluent :
+    - Gants changés à chaque gifle
+    - Eau purifiée pour la brumisation
+    - Personnel formé aux gestes barrières
+    - Protocole sanitaire strict
+
+    Les Festivals Partenaires
+
+    Déjà adoptée par :
+    - Coachella Valley
+    - Tomorrowland
+    - Rock en Seine
+    - Solidays
+    - Les Vieilles Charrues
+
+    Formules Disponibles
+
+    1. Pack Festival Basic
+      - Installation standard
+      - 2 gifleurs professionnels
+      - Matériel de base
+
+    2. Pack Festival Premium
+      - Installation deluxe
+      - Équipe complète
+      - Effets spéciaux
+      - Zone VIP
+
+    3. Pack Festival Ultimate
+      - Installation personnalisée
+      - Staff illimité
+      - Animations exclusives
+      - Marketing sur mesure
+
+    L'Avenir des Festivals
+
+    Les prochaines innovations en développement :
+    - Gifles sonores musicales
+    - Effets lumineux nocturnes
+    - Système de réservation en ligne
+    - Applications dédiées
+
+    Conclusion
+
+    La Gifle Rafraîchissante révolutionne l'expérience festival en combinant divertissement et bien-être. Cette innovation signée Click-et-Paf prouve encore une fois que la gifle peut être réinventée pour créer des moments uniques et rafraîchissants.`,
+      "image": "/images/festival.webp",
+      "imageTitle": "Festival d'été avec animation Gifle Rafraîchissante"
+    },
+    {
+      "id": 13,
+      "title": "Débats Politiques 2.0 : La Gifle Démocratique Révolutionne les Échanges Parlementaires",
+      "content": `Dans un contexte politique souvent tendu, Click-et-Paf innove en proposant un service révolutionnaire : la Gifle Démocratique, une nouvelle approche pour dynamiser les débats parlementaires et améliorer la qualité des échanges politiques.
+
+      La Démocratie a du Répondant
+
+      Fini les débats interminables et les discussions stériles ! La Gifle Démocratique permet aux élus de s'exprimer différemment, tout en respectant le protocole parlementaire. Une approche novatrice qui fait déjà ses preuves dans plusieurs assemblées européennes.
+
+      Les Formules Politiques Proposées :
+
+      1. Le Pack "Débat Express"
+         - Gifle modérée certifiée
+         - Chronomètre intégré
+         - Arbitrage professionnel
+         - Retransmission en direct
+
+      2. La Formule "Opposition Constructive"
+         - Gifles bipartisanes
+         - Médiateur spécialisé
+         - Compte-rendu détaillé
+         - Analyse des impacts
+
+      3. Le Programme "Consensus National"
+         - Gifles multipartites
+         - Protocole strict
+         - Couverture médiatique
+         - Réconciliation guidée
+
+      Les Avantages pour la Démocratie :
+
+      - Réduction du temps de parole superflu
+      - Amélioration de la concision des arguments
+      - Dynamisation des séances parlementaires
+      - Augmentation de l'attention médiatique
+      - Engagement citoyen renforcé
+
+      Témoignages d'Élus
+
+      "Depuis l'introduction de la Gifle Démocratique, nos débats sont plus efficaces. On va droit au but !" - Un député anonyme
+
+      "J'ai reçu une gifle parlementaire la semaine dernière. Depuis, mes interventions sont plus percutantes." - Une sénatrice qui souhaite garder l'anonymat
+
+      Protocole et Sécurité
+
+      Chaque séance est encadrée par :
+      - Des experts en médiation politique
+      - Des professionnels de la gifle certifiés
+      - Des équipes médicales spécialisées
+      - Des juristes constitutionnels
+
+      Impact sur le Processus Législatif
+
+      Statistiques encourageantes :
+      - -40% de temps de débat
+      - +60% de lois votées
+      - -75% d'amendements inutiles
+      - +200% d'audience pour les sessions parlementaires
+
+      Innovations Démocratiques
+
+      Nos dernières avancées incluent :
+      - Gifle proportionnelle au temps de parole dépassé
+      - Système de points "Démocratie Active"
+      - Classement mensuel des élus les plus efficaces
+      - Trophée de la Gifle d'Or parlementaire
+
+      Réactions Internationales
+
+      Le concept fait des émules :
+      - Adoption par le Parlement Européen
+      - Tests au Congrès américain
+      - Intérêt croissant des démocraties émergentes
+      - Reconnaissance de l'ONU
+
+      Formation et Préparation
+
+      Nous proposons aux élus :
+      - Stages d'initiation
+      - Ateliers de résilience
+      - Cours de rhétorique express
+      - Techniques d'esquive diplomatique
+
+      Perspectives d'Avenir
+
+      Les développements en cours :
+      - Gifle virtuelle pour les sessions à distance
+      - Intelligence artificielle d'évaluation des débats
+      - Système de notation citoyenne
+      - Application de suivi démocratique
+
+      Conclusion
+
+      La Gifle Démocratique représente une innovation majeure dans le fonctionnement de nos institutions. Cette approche unique développée par Click-et-Paf modernise le débat politique tout en préservant les fondements de notre démocratie. Une révolution pacifique qui pourrait bien changer la face de la politique moderne.`,
+      "image": "/images/politique.webp",
+      "imageTitle": "Séance parlementaire avec démonstration de Gifle Démocratique"
+    },
+    {
+      "id": 14,
+      "title": "Sport de Haut Niveau : La Gifle devient Discipline Olympique pour 2028 !",
+      "content": `Une annonce qui fait l'effet d'une gifle dans le monde du sport : Click-et-Paf collabore avec le Comité International Olympique pour introduire la Gifle Sportive aux Jeux Olympiques de 2028. Une révolution qui promet de transformer le paysage sportif mondial.
+
+        Les Catégories Olympiques
+
+        La discipline se déclinera en plusieurs épreuves :
+        - Gifle Solo (Hommes/Femmes)
+        - Gifle Synchronisée par équipe
+        - Gifle de Précision
+        - Gifle Libre Artistique
+        - Relais Gifle 4x100
+
+        Règles et Notation
+
+        Le système de notation repose sur plusieurs critères :
+        - Puissance (30 points)
+        - Technique (25 points)
+        - Style artistique (20 points)
+        - Précision (15 points)
+        - Réaction du public (10 points)
+
+        Équipements Homologués
+
+        Click-et-Paf développe la gamme officielle :
+        - Gants de compétition certifiés
+        - Protections faciales high-tech
+        - Capteurs de puissance
+        - Tenues aérodynamiques
+
+        Préparation des Athlètes
+
+        Notre programme d'entraînement inclut :
+        - Conditionnement physique spécifique
+        - Techniques de respiration
+        - Préparation mentale
+        - Chorégraphie gestuelle
+        - Récupération post-gifle
+
+        Les Nations Favorites
+
+        Plusieurs pays se distinguent déjà :
+        - La France (technique classique)
+        - La Russie (puissance brute)
+        - Le Japon (précision)
+        - Le Brésil (style artistique)
+        - Les USA (innovation)
+
+        Impact sur le Sport Mondial
+
+        Les retombées attendues :
+        - Augmentation de 300% des licenciés
+        - Création de 50 000 emplois
+        - Développement de nouvelles technologies
+        - Émergence de stars internationales
+
+        Témoignages de Champions
+
+        "La gifle sportive demande une maîtrise totale du geste. C'est un art." - Jean-Michel D., Champion de France
+
+        "Ce sport combine puissance, précision et élégance. C'est l'avenir." - Maria S., Championne du Monde
+
+        Infrastructures et Équipements
+
+        Les installations olympiques comprendront :
+        - Arène spéciale anti-réverbération
+        - Systèmes de mesure ultra-précis
+        - Écrans géants multi-angles
+        - Zones d'échauffement dédiées
+
+        Formation des Juges
+
+        Un programme rigoureux incluant :
+        - Certification internationale
+        - Formation aux nouvelles technologies
+        - Stage de perfectionnement
+        - Mise à jour continue des critères
+
+        Innovations Technologiques
+
+        Click-et-Paf révolutionne la discipline avec :
+        - IA d'analyse des mouvements
+        - Replay en réalité augmentée
+        - Statistiques en temps réel
+        - Simulation d'entraînement VR
+
+        Perspectives d'Avenir
+
+        Les développements prévus :
+        - Championnats continentaux
+        - Circuit professionnel mondial
+        - Académies de formation
+        - Compétitions junior
+
+        Conclusion
+
+        L'introduction de la Gifle Sportive aux JO 2028 marque un tournant historique dans l'histoire du sport. Click-et-Paf, en tant que partenaire officiel, s'engage à développer cette discipline avec excellence et innovation. Une nouvelle ère s'ouvre pour le sport mondial.`,
+          "image": "/images/olympique.webp",
+          "imageTitle": "Démonstration de Gifle Sportive Olympique"
+}
 ].map((article) => ({
   ...article,
   slug: generateSlug(article.title),
