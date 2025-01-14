@@ -6,10 +6,7 @@ function generateSlug(title) {
     .replace(/[\u0300-\u036f]/g, '') 
     .replace(/[^a-z0-9\s-]/g, '') 
     .replace(/\s+/g, '-') 
-
 }
-
-
 
 export const allArticles = [
   {
@@ -106,6 +103,129 @@ export const allArticles = [
  "image": "/images/noel_gifle.webp",
     "imageTitle": "Famille s'amusant avec des défis Click-et-paf autour d'un sapin de Noël."
     },
+    {
+      "id": 9,
+      "title": "La Gifle Thérapeutique : Une Nouvelle Approche du Bien-être",
+      "content": `Dans un monde où le stress et l'anxiété sont omniprésents, une nouvelle approche thérapeutique fait son apparition : la gifle thérapeutique. Click-et-paf, pionnier dans ce domaine, propose une expérience unique qui combine surprise, libération émotionnelle et accompagnement professionnel.
+
+      La Science derrière la Gifle Thérapeutique
+
+      Contrairement aux idées reçues, la gifle thérapeutique n'est pas qu'une simple claque. C'est une technique minutieusement étudiée qui repose sur plusieurs principes :
+
+      - La libération d'endorphines suite au choc contrôlé
+      - L'effet de surprise qui permet de "reset" le cerveau
+      - L'accompagnement psychologique avant et après la séance
+      - La création d'un moment cathartique unique
+
+      Les Bienfaits Observés
+
+      De nombreux clients témoignent des effets positifs de cette thérapie alternative :
+
+      - Réduction immédiate du stress
+      - Sensation de légèreté et de libération
+      - Prise de conscience corporelle
+      - Amélioration de la concentration
+      - Expérience mémorable et transformative
+
+      Un Protocole Rigoureux
+
+      Chaque séance de gifle thérapeutique suit un protocole strict :
+
+      1. Consultation préalable pour évaluer les besoins
+      2. Choix de l'intensité et du type de gifle
+      3. Préparation mentale et physique
+      4. Exécution par un professionnel certifié
+      5. Débriefing et accompagnement post-gifle
+
+      Les Différentes Formules Proposées
+
+      Click-et-paf propose plusieurs variantes de la gifle thérapeutique :
+
+      - La Gifle Douce : pour les débutants
+      - La Gifle Énergique : pour une libération maximale
+      - La Gifle en Groupe : pour une expérience partagée
+      - La Gifle Premium : avec accompagnement VIP
+
+      Témoignages et Résultats
+
+      "Après ma première séance, j'ai ressenti un soulagement immédiat. C'est comme si tous mes soucis avaient été chassés d'un coup !" - Marie, 34 ans
+
+      "Je pensais que c'était une blague, mais les effets sont réels. Je me sens plus léger, plus présent." - Thomas, 28 ans
+
+      Conclusion
+
+      La gifle thérapeutique représente une innovation majeure dans le domaine du bien-être. Bien que surprenante au premier abord, cette approche unique proposée par Click-et-paf offre une alternative efficace aux méthodes traditionnelles de gestion du stress.`,
+        "image": "/images/therapy.webp",
+        "imageTitle": "Séance de gifle thérapeutique professionnelle",
+    },
+    {
+      "id": 10,
+      "title": "Team Building Révolutionnaire : La Gifle qui Soude les Équipes",
+      "content": `Le monde de l'entreprise est en constante évolution, et avec lui, les méthodes de team building. Click-et-paf révolutionne ce domaine en proposant une approche inédite : les séances de gifles collectives encadrées. Une méthode qui fait déjà sensation dans les plus grandes entreprises.
+
+      L'Art de la Cohésion par la Gifle
+
+      Le concept est simple mais efficace : réunir une équipe autour d'une expérience partagée unique et mémorable. Les séances de gifles professionnelles créent des liens inattendus entre collègues et brisent instantanément la glace, même dans les équipes les plus réservées.
+
+      Les Avantages pour l'Entreprise :
+
+      - Renforcement immédiat de la cohésion d'équipe
+      - Réduction des tensions hiérarchiques
+      - Amélioration de la communication
+      - Création de souvenirs communs inoubliables
+      - Développement de la confiance mutuelle
+
+      Nos Formules Entreprise
+
+      1. La Gifle Découverte
+        - Session d'initiation pour les équipes
+        - Exercices de confiance
+        - Débriefing collectif
+
+      2. Le Challenge Inter-Services
+        - Tournoi de gifles amical
+        - Activités de team building
+        - Remise de trophées
+
+      3. La Retraite Corporate
+        - Week-end complet de cohésion
+        - Ateliers de gifles thérapeutiques
+        - Séances de méditation post-gifle
+
+      Impact sur la Productivité
+
+      Les entreprises ayant adopté nos programmes rapportent :
+      - Une augmentation de 150% de la communication inter-services
+      - Une réduction de 75% des conflits internes
+      - Une amélioration notable de l'ambiance au bureau
+
+      Témoignages de Managers
+
+      "Depuis que nous avons organisé la journée Click-et-paf, mes équipes sont plus soudées que jamais. Les barrières sont tombées !" - Laurent, Directeur Marketing
+
+      "J'étais sceptique au début, mais les résultats sont là. Même nos réunions sont plus dynamiques maintenant." - Sophie, DRH
+
+      Sécurité et Professionnalisme
+
+      Chaque session est :
+      - Encadrée par des professionnels certifiés
+      - Adaptée au niveau de chaque participant
+      - Réalisée dans un environnement sécurisé
+      - Suivie d'un débriefing approfondi
+
+      Les Tendances à Venir
+
+      Le "Gifle Building" devient rapidement la nouvelle tendance en matière de cohésion d'équipe. De plus en plus d'entreprises intègrent ces sessions dans leur programme de formation continue, reconnaissant leur potentiel unique pour :
+      - Briser les silos organisationnels
+      - Favoriser l'innovation collaborative
+      - Renforcer l'esprit d'équipe
+
+      Conclusion
+
+      Le team building par la gifle représente une révolution dans le monde de l'entreprise. Cette approche unique proposée par Click-et-paf transforme la dynamique des équipes tout en créant des moments mémorables. Dans un monde professionnel en quête perpétuelle d'innovation, cette méthode s'impose comme la solution idéale pour des équipes plus soudées et plus performantes.`,
+          "image": "/images/teambuilding.webp",
+          "imageTitle": "Séance de team building avec gifles professionnelles"
+  }
 ].map((article) => ({
   ...article,
   slug: generateSlug(article.title),
