@@ -431,7 +431,108 @@ export const allArticles = [
       La Gifle Démocratique représente une innovation majeure dans le fonctionnement de nos institutions. Cette approche unique développée par Click-et-Paf modernise le débat politique tout en préservant les fondements de notre démocratie. Une révolution pacifique qui pourrait bien changer la face de la politique moderne.`,
       "image": "/images/politique.webp",
       "imageTitle": "Séance parlementaire avec démonstration de Gifle Démocratique"
-    }
+    },
+    {
+      "id": 14,
+      "title": "Sport de Haut Niveau : La Gifle devient Discipline Olympique pour 2028 !",
+      "content": `Une annonce qui fait l'effet d'une gifle dans le monde du sport : Click-et-Paf collabore avec le Comité International Olympique pour introduire la Gifle Sportive aux Jeux Olympiques de 2028. Une révolution qui promet de transformer le paysage sportif mondial.
+
+        Les Catégories Olympiques
+
+        La discipline se déclinera en plusieurs épreuves :
+        - Gifle Solo (Hommes/Femmes)
+        - Gifle Synchronisée par équipe
+        - Gifle de Précision
+        - Gifle Libre Artistique
+        - Relais Gifle 4x100
+
+        Règles et Notation
+
+        Le système de notation repose sur plusieurs critères :
+        - Puissance (30 points)
+        - Technique (25 points)
+        - Style artistique (20 points)
+        - Précision (15 points)
+        - Réaction du public (10 points)
+
+        Équipements Homologués
+
+        Click-et-Paf développe la gamme officielle :
+        - Gants de compétition certifiés
+        - Protections faciales high-tech
+        - Capteurs de puissance
+        - Tenues aérodynamiques
+
+        Préparation des Athlètes
+
+        Notre programme d'entraînement inclut :
+        - Conditionnement physique spécifique
+        - Techniques de respiration
+        - Préparation mentale
+        - Chorégraphie gestuelle
+        - Récupération post-gifle
+
+        Les Nations Favorites
+
+        Plusieurs pays se distinguent déjà :
+        - La France (technique classique)
+        - La Russie (puissance brute)
+        - Le Japon (précision)
+        - Le Brésil (style artistique)
+        - Les USA (innovation)
+
+        Impact sur le Sport Mondial
+
+        Les retombées attendues :
+        - Augmentation de 300% des licenciés
+        - Création de 50 000 emplois
+        - Développement de nouvelles technologies
+        - Émergence de stars internationales
+
+        Témoignages de Champions
+
+        "La gifle sportive demande une maîtrise totale du geste. C'est un art." - Jean-Michel D., Champion de France
+
+        "Ce sport combine puissance, précision et élégance. C'est l'avenir." - Maria S., Championne du Monde
+
+        Infrastructures et Équipements
+
+        Les installations olympiques comprendront :
+        - Arène spéciale anti-réverbération
+        - Systèmes de mesure ultra-précis
+        - Écrans géants multi-angles
+        - Zones d'échauffement dédiées
+
+        Formation des Juges
+
+        Un programme rigoureux incluant :
+        - Certification internationale
+        - Formation aux nouvelles technologies
+        - Stage de perfectionnement
+        - Mise à jour continue des critères
+
+        Innovations Technologiques
+
+        Click-et-Paf révolutionne la discipline avec :
+        - IA d'analyse des mouvements
+        - Replay en réalité augmentée
+        - Statistiques en temps réel
+        - Simulation d'entraînement VR
+
+        Perspectives d'Avenir
+
+        Les développements prévus :
+        - Championnats continentaux
+        - Circuit professionnel mondial
+        - Académies de formation
+        - Compétitions junior
+
+        Conclusion
+
+        L'introduction de la Gifle Sportive aux JO 2028 marque un tournant historique dans l'histoire du sport. Click-et-Paf, en tant que partenaire officiel, s'engage à développer cette discipline avec excellence et innovation. Une nouvelle ère s'ouvre pour le sport mondial.`,
+          "image": "/images/olympique.webp",
+          "imageTitle": "Démonstration de Gifle Sportive Olympique"
+}
 ].map((article) => ({
   ...article,
   slug: generateSlug(article.title),
