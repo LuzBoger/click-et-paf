@@ -16,7 +16,7 @@ const Services = () => {
         />
         <meta 
           name="keywords" 
-          content="gifle thérapeutique, gifle cinématographique, expérience insolite, service de gifle, click et paf, thérapy, acting" 
+          content="gifle thérapeutique, gifle cinématographique, expérience insolite, service de gifle,click,paf,click&paf,click-et-paf,clicketpaf, thérapy, acting" 
         />
         <meta property="og:title" content="Services de Gifles  | ClicketPaf" />
         <meta property="og:description" content="Découvrez nos services de gifles thérapeutiques et expériences insolites. Des moments uniques et mémorables garantis." />
