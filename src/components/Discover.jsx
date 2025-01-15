@@ -8,10 +8,10 @@ const Discover = () => {
 
         <div className="mt-12 bg-gray-50 p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            L'Histoire de Click-et-Paf : Comment tout a commencé ?
+            L'Histoire de ClicketPaf : Comment tout a commencé ?
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            L'idée a germé dans un cerveau légèrement déjanté. Un soir, une simple question : "Pourquoi ne pas ajouter un peu de folie dans les vies des gens ?" Et voilà, Click-et-Paf est né ! De l'idée originale à un service qui s'est rapidement transformé en phénomène, découvrez l'incroyable histoire de notre aventure.
+            L'idée a germé dans un cerveau légèrement déjanté. Un soir, une simple question : "Pourquoi ne pas ajouter un peu de folie dans les vies des gens ?" Et voilà, ClicketPaf est né ! De l'idée originale à un service qui s'est rapidement transformé en phénomène, découvrez l'incroyable histoire de notre aventure.
           </p>
 
           <p className="text-lg text-gray-700 mb-6">
@@ -28,11 +28,11 @@ const Discover = () => {
         </div>
 
         <h2 id="discover-section" className="text-3xl font-semibold text-gray-800 mb-6 mt-16">
-          Pourquoi choisir Click-et-Paf ?
+          Pourquoi choisir ClicketPaf ?
         </h2>
 
         <p className="text-lg text-gray-700 mb-8">
-          Chez Click-et-Paf, on ne se contente pas de vous offrir des services ordinaires. Nous vous proposons des expériences aussi mémorables qu'absurdes, créées spécialement pour ajouter du fun à votre quotidien. Que vous soyez à la recherche de moments cocasses ou de souvenirs mémorables, nous avons ce qu'il vous faut !
+          Chez ClicketPaf, on ne se contente pas de vous offrir des services ordinaires. Nous vous proposons des expériences aussi mémorables qu'absurdes, créées spécialement pour ajouter du fun à votre quotidien. Que vous soyez à la recherche de moments cocasses ou de souvenirs mémorables, nous avons ce qu'il vous faut !
         </p>
 
         <div className="flex justify-center gap-8">
@@ -46,7 +46,7 @@ const Discover = () => {
           <div className="bg-white shadow-lg p-6 rounded-lg max-w-xs hover:shadow-xl transition-shadow duration-300">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Des Souvenirs Inoubliables</h3>
             <p className="text-gray-600">
-              Chaque moment passé avec Click-et-Paf est une aventure, un souvenir épique à partager. Et ce n'est pas qu'une gifle, c'est un moment qui restera dans les mémoires. Offrez une expérience unique remplie d'humour et vous ferez rire vos amis pendant des années, jusqu'à ce que même eux vous réclament une nouvelle gifle (ou une autre expérience, à vous de choisir !).
+              Chaque moment passé avec ClicketPaf est une aventure, un souvenir épique à partager. Et ce n'est pas qu'une gifle, c'est un moment qui restera dans les mémoires. Offrez une expérience unique remplie d'humour et vous ferez rire vos amis pendant des années, jusqu'à ce que même eux vous réclament une nouvelle gifle (ou une autre expérience, à vous de choisir !).
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Helmet>
-        <title>Services de Gifles Thérapeutiques et Expériences Insolites | Click-et-Paf</title>
+        <title>Services de Gifles et Expériences Insolites | ClicketPaf</title>
         <meta 
           name="description" 
           content="Découvrez nos services de gifles thérapeutiques et expériences insolites. Des moments uniques et mémorables garantis par des professionnels certifiés." 
@@ -18,7 +18,7 @@ const Services = () => {
           name="keywords" 
           content="gifle thérapeutique, gifle cinématographique, expérience insolite, service de gifle, click et paf, thérapy, acting" 
         />
-        <meta property="og:title" content="Services de Gifles Thérapeutiques | Click-et-Paf" />
+        <meta property="og:title" content="Services de Gifles  | ClicketPaf" />
         <meta property="og:description" content="Découvrez nos services de gifles thérapeutiques et expériences insolites. Des moments uniques et mémorables garantis." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://click-et-paf.com/services" />

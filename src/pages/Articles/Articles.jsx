@@ -13,19 +13,19 @@ const Articles = () => {
     <div className="bg-gray-100 min-h-screen">
  
       <Helmet>
-        <title>Blog Click-et-Paf</title>
-        <meta name="description" content="Explorez notre blog Click-et-paf pour des articles amusants et inspirants sur des expériences insolites" />
+        <title>Blog ClicketPaf</title>
+        <meta name="description" content="Explorez notre blog Clicketpaf pour des articles amusants et inspirants sur des expériences insolites" />
         <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:url" content="http://click-et-paf.com/articles" />
-        <meta property="og:title" content="Click-et-paf: Des expériences insolites et des services surprenants" />
-        <meta property="og:description" content="Surprenez vos proches avec des gifles virtuelles et des expériences insolites grâce à Click-et-paf. Offrez des moments uniques et mémorables avec notre service en ligne." />
+        <meta property="og:title" content="Clicketpaf: Des expériences insolites et des services surprenants" />
+        <meta property="og:description" content="Surprenez vos proches avec des gifles virtuelles et des expériences insolites grâce à Clicketpaf. Offrez des moments uniques et mémorables avec notre service en ligne." />
         <meta property="og:image" content={featuredArticle.image} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Click-et-paf: Des expériences insolites et des services surprenants" />
-        <meta name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Click-et-paf." />
+        <meta name="twitter:title" content="Clicketpaf: Des expériences insolites et des services surprenants" />
+        <meta name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf." />
         <meta name="twitter:image" content={featuredArticle.image} />
       </Helmet>
 
