@@ -14,37 +14,37 @@ function App() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Click-et-Paf | Pour des expériences insolites et uniques</title>
+        <title>ClicketPaf | Pour des expériences insolites et uniques</title>
         <meta
           name="description"
-          content="Click-et-Paf propose des expériences insolites pour surprendre et amuser vos proches. Découvrez nos services uniques"
+          content="ClicketPaf propose des expériences insolites pour surprendre et amuser vos proches. Découvrez nos services uniques"
         />
         <meta
           name="keywords"
-          content="Click-et-Paf, expériences insolites, expériences surprenante,gifles, expériences décalées, moments uniques, idées originales, services, surprises, humour"
+          content="ClicketPAf,clicketpaf, expériences insolites, expériences surprenante,gifles, expériences décalées, moments uniques, idées originales, services, surprises, humour"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://click-et-paf.com" />
-        <meta property="og:url" content="https://www.click-et-paf.com" />
-        <meta property="og:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
+        <meta property="og:url" content="https://click-et-paf.com" />
+        <meta property="og:title" content="ClicketPaf | Pour des expériences insolites et uniques" />
         <meta
           property="og:description"
-          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
+          content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
         <meta property="og:image" content="/images/logo_click_et_paf.webp" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
+        <meta name="twitter:title" content="ClicketPaf | Pour des expériences insolites et uniques" />
         <meta
           name="twitter:description"
-          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
+          content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
         <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
         
       </Helmet>
       <NavBar />
-      <Header title="Bienvenue sur Click-et-Paf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
+      <Header title="Bienvenue sur ClicketPaf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
       <Discover />
       <section id="services" className="py-16">
         <div className="container mx-auto text-center">

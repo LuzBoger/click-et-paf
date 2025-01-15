@@ -13,7 +13,7 @@ const Articles = () => {
     <div className="bg-gray-100 min-h-screen">
  
       <Helmet>
-        <title>Blog Click-et-Paf</title>
+        <title>Blog ClicketPaf</title>
         <meta name="description" content="Explorez notre blog Click-et-paf pour des articles amusants et inspirants sur des expériences insolites" />
         <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

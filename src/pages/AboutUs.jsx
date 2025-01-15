@@ -13,7 +13,7 @@ const AboutUs = () => {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              L’histoire de Click-et-Paf commence dans un moment où l'absurde se rencontre avec la
+              L’histoire de ClicketPaf commence dans un moment où l'absurde se rencontre avec la
               réalité. Deux amis, Martin et Sophie, se retrouvaient régulièrement à discuter autour d’un verre de vin, en observant les travers de la société
               moderne. Entre les conversations sérieuses sur le stress quotidien, les désirs de déconnexion, et les discussions sur les tendances de plus en
               plus étranges qui émergeaient autour d'eux, une question leur est venue en tête : Et si on pouvait offrir à tout le monde l’opportunité de se

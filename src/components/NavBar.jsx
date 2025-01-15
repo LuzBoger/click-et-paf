@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="bg-gray-800">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center text-white text-2xl font-bold">
-          Click-et-Paf
+          ClicketPaf
         </Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
