@@ -6,6 +6,23 @@ import Footer from "../components/Footer";
 const AboutUs = () => {
   return (
     <div>
+      <Helmet>
+        <title>Notre Histoire | ClicketPaf</title>
+        <meta name="description" content="Découvrez l'histoire de ClicketPaf" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="canonical" href="https://click-et-paf.com/notre-histoire" />
+        <meta property="og:url" content="https://www.click-et-paf.com/notre-histoire" />
+        <meta property="og:title" content="Notre Histoire | ClicketPaf" />
+        <meta property="og:description" content="Découvrez l'histoire de ClicketPaf" />
+        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Notre Histoire | ClicketPaf" />
+        <meta name="twitter:description" content="Découvrez l'histoire de ClicketPaf" />
+        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+      </Helmet>
+      
       <Navbar />
       <Header title="Notre Histoire" />
       
