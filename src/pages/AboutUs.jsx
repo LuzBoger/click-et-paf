@@ -21,7 +21,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              C’est alors qu’a germé l’idée d’un service hors du commun : un Click-et-Paf dans la vraie
+              C’est alors qu’a germé l’idée d’un service hors du commun : un ClicketPaf dans la vraie
               vie. Une plateforme commerciale qui offrirait des services où, d’un simple clic, une personne pourrait, par exemple, recevoir une gifle… ou bien
               expérimenter d'autres actions étonnantes pour sortir du cadre habituel de la vie quotidienne. Une manière inédite de se défouler, de créer un moment
               décalé et de rendre la vie un peu plus piquante, tout en garantissant sécurité et consentement.
@@ -33,7 +33,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              Le concept a pris forme sous le nom de Click-et-Paf : un service unique où les clients
+              Le concept a pris forme sous le nom de ClicketPaf : un service unique où les clients
               peuvent choisir parmi une sélection d'expériences physiques et inattendues, allant d’une gifle (lancée par des professionnels formés ou par vous mêmes) à des
               actions un peu plus farfelues. Tout est pensé pour offrir un moment de décompression totale, sans jugement.
             </p>
@@ -45,7 +45,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              Click-et-Paf s’est alors métamorphosée en une véritable entreprise, avec des prestations
+              ClicketPaf s’est alors métamorphosée en une véritable entreprise, avec des prestations
               variées qui allaient bien au-delà des gifles : des actions décalées comme des cris de joie dans des endroits publics (mais avec la permission et
               sous surveillance), des interventions théâtrales dans la rue, des surprises en pleine réunion de travail, ou même des moments de "décompression"
               extrême où l'on peut s’autoriser à tout lâcher, de façon totalement respectueuse et consensuelle.
@@ -58,13 +58,13 @@ const AboutUs = () => {
             </p>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              Aujourd’hui, Click-et-Paf est bien plus qu’un simple service : c’est un mouvement, une
+              Aujourd’hui, ClicketPaf est bien plus qu’un simple service : c’est un mouvement, une
               manière nouvelle d’explorer la vie avec un brin de folie et une touche d’imprévu. Nous offrons à nos clients une chance de sortir des sentiers
               battus, de faire un pas de côté et de vivre une expérience mémorable. Car parfois, un petit coup de "paf" peut tout changer.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify">
-              Alors, prêt à défier les conventions et à vivre l’expérience Click-et-Paf dans la vraie vie ?
+              Alors, prêt à défier les conventions et à vivre l’expérience ClicketPaf dans la vraie vie ?
             </p>
           </div>
         </div>

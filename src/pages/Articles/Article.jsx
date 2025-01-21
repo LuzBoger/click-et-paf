@@ -23,7 +23,7 @@ const Article = () => {
   return (
     <div>
       <Helmet>
-        <title>{article.title}</title>
+        <title>Blog ClicketPaf</title>
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
         <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

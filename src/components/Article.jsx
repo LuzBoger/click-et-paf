@@ -12,7 +12,9 @@ const Article = (item) => {
                     src={article.image}
                     alt={article.title}
                     title={article.title}
-                    className="w-full h-52 object-cover "
+                    width="300px"
+                    height="300px"
+                    className="w-full object-cover "
                 />
 
                 <a href={`#${article.id}`} title={`Lire l'article ${article.title}`} className="mx-4">

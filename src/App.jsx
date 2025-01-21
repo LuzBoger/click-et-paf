@@ -21,12 +21,12 @@ function App() {
         />
         <meta
           name="keywords"
-          content="ClicketPAf,clicketpaf, expériences insolites, expériences surprenante,gifles, expériences décalées, moments uniques, idées originales, services, surprises, humour"
+          content="click,paf,click&paf,click-et-paf,clicketpaf, expériences insolites, expériences surprenante,gifles, expériences décalées, moments uniques, idées originales, services, surprises, humour"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://click-et-paf.com" />
-        <meta property="og:url" content="https://click-et-paf.com" />
+        <meta property="og:url" content="https://www.click-et-paf.com" />
         <meta property="og:title" content="ClicketPaf | Pour des expériences insolites et uniques" />
         <meta
           property="og:description"
