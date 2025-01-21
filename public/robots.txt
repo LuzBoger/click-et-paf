@@ -1,5 +1,8 @@
 
 User-agent: *
 Disallow: /notre-histoire
+Disallow: /mentions-legales
+Disallow: /politique-de-confidentialite
+Disallow: /cgu
 
 Sitemap: https://www.click-et-paf.com/sitemap.xml

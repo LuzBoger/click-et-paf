@@ -7,6 +7,10 @@ import Articles from './pages/Articles/Articles.jsx';
 import Article from './pages/Articles/Article.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import Services from './pages/Services.jsx';
+import Contact from './pages/Contact.jsx';
+import LegalMentions from './pages/LegalMentions.jsx';
+import PrivacyPolicy from './pages/PrivatePolicy.jsx';
+import CGU from './pages/CGU.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>  
@@ -15,7 +19,11 @@ createRoot(document.getElementById('root')).render(
         <Route path="/notre-histoire" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Articles />} />
-        <Route path="/article/:slug" element={<Article />} /> 
+        <Route path="/article/:slug" element={<Article />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/mentions-legales" element={<LegalMentions />} />
+        <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
+        <Route path="/cgu" element={<CGU />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

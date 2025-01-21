@@ -23,26 +23,26 @@ const Article = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog ClicketPaf</title>
+        <title>{article.title}</title>
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
         <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content={'Moussi Sid-Ahmed'} />
         <meta name="robots" content="index, follow" />
-        
+
         <meta property="og:url" content={`http://click-et-paf.com/article/${article.slug}`} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.content.slice(0, 150) + '...'} />
         <meta property="og:image" content={article.image} />
         <meta property="og:author" content={'Moussi Sid-Ahmed'} />
         <meta property="og:type" content="article" />
-        
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.content.slice(0, 150) + '...'} />
         <meta name="twitter:image" content={article.image} />
         <meta name="twitter:creator" content={'Moussi Sid-Ahmed'} />
-        
+
         <link rel="canonical" href={`http://click-et-paf.com/article/${article.slug}`} />
 
         <script type="application/ld+json">
@@ -69,16 +69,41 @@ const Article = () => {
       </Helmet>
 
       <NavBar />
+      <nav className="bg-gray-200 py-3">
+        <div className="container mx-auto px-6">
+          <ul className="flex text-sm text-gray-700">
+            <li>
+              <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+                <span>Accueil</span>
+              </a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+            <a href="http://click-et-paf.com/blog" className="hover:text-blue-500">
+              <span >Blog</span>
+              </a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">article</span>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">{article.slug}</span>
+              </li>
 
-      <main className="px-6 py-12 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-12 mb-12"> 
+          </ul>
+        </div>
+      </nav>
+      <main className="px-6 py-12 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-12 mb-12">
         <article>
           <header className="mb-8">
-            
+
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">{article.title}</h1>
-          
+
             <img
               src={article.image}
-              alt={article.imageTitle || article.title}  
+              alt={article.imageTitle || article.title}
               title={article.imageTitle || article.title}
               className="w-full rounded-lg shadow-xl mb-6"
             />
@@ -97,7 +122,7 @@ const Article = () => {
             <ul className="list-disc list-inside space-y-4 text-gray-700">
               {allArticles
                 .filter((item) => item.id !== article.id)
-                .slice(0, 3) 
+                .slice(0, 3)
                 .map((related) => (
                   <li key={related.id} className="hover:text-blue-600 transition-all duration-300">
                     <a href={`/article/${related.slug}`} className="text-xl font-medium">
