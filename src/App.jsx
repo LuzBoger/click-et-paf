@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Header from './components/Header';
+import Reviews from './components/Reviews';
 
 
 
@@ -30,7 +31,7 @@ function App() {
         <meta property="og:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
         <meta
           property="og:description"
-          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
+          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d'absurde à votre vie."
         />
         <meta property="og:image" content="/images/logo_click_et_paf.webp" />
         <meta property="og:type" content="website" />
@@ -38,7 +39,7 @@ function App() {
         <meta name="twitter:title" content="Click-et-Paf | Pour des expériences insolites et uniques" />
         <meta
           name="twitter:description"
-          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
+          content="Transformez votre quotidien avec Click-et-Paf. Découvrez des expériences uniques, pour ajouter une touche d'absurde à votre vie."
         />
         <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
         
@@ -57,6 +58,9 @@ function App() {
       <section id="articles" className="py-16 ">
         <ArticleCard />
       </section>
+      
+      <Reviews />
+
       <FAQ />
 
       <Footer />
