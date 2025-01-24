@@ -6,9 +6,8 @@ import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
 const Article = () => {
-  const { slug } = useParams();
-  const article = allArticles.find((item) => item.slug === slug);
-
+  const {category, slug } = useParams();
+  const article = allArticles.find(a => a.category === category && a.slug === slug);
   if (!article) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -30,7 +29,7 @@ const Article = () => {
         <meta name="author" content={'Moussi Sid-Ahmed'} />
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:url" content={`http://click-et-paf.com/article/${article.slug}`} />
+        <meta property="og:url" content={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.content.slice(0, 150) + '...'} />
         <meta property="og:image" content={article.image} />
@@ -43,7 +42,7 @@ const Article = () => {
         <meta name="twitter:image" content={article.image} />
         <meta name="twitter:creator" content={'Moussi Sid-Ahmed'} />
 
-        <link rel="canonical" href={`http://click-et-paf.com/article/${article.slug}`} />
+        <link rel="canonical" href={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
 
         <script type="application/ld+json">
           {`
@@ -58,7 +57,7 @@ const Article = () => {
               },
               "datePublished": "${article.date}",
               "image": "${article.image}",
-              "url": "http://click-et-paf.com/article/${article.slug}",
+              "url": "http://click-et-paf.com/blog/${article.category}/${article.slug}",
               "publisher": {
                 "@type": "Organization",
                 "name": "Click-et-Paf"
@@ -85,7 +84,7 @@ const Article = () => {
               <span className="mx-2">/</span>
             </li>
             <li>
-              <span className="hover:text-blue-500">article</span>
+              <span className="hover:text-blue-500">{article.category}</span>
               <span className="mx-2">/</span>
             </li>
             <li>
@@ -125,7 +124,7 @@ const Article = () => {
                 .slice(0, 3)
                 .map((related) => (
                   <li key={related.id} className="hover:text-blue-600 transition-all duration-300">
-                    <a href={`/article/${related.slug}`} className="text-xl font-medium">
+                    <a href={`/blog/${related.category}/${related.slug}`} className="text-xl font-medium">
                       {related.title}
                     </a>
                   </li>
@@ -134,7 +133,7 @@ const Article = () => {
 
             <div className="mt-8 text-center">
               <a
-                href="/articles"
+                href="/blog"
                 className="text-blue-600 hover:underline text-lg"
               >
                 Retour à la liste des articles

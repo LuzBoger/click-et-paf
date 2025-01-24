@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
-
+import { Helmet } from "react-helmet"
 const AboutUs = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const AboutUs = () => {
         <title>Notre Histoire | ClicketPaf</title>
         <meta name="description" content="Découvrez l'histoire de ClicketPaf" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://click-et-paf.com/notre-histoire" />
         <meta property="og:url" content="https://www.click-et-paf.com/notre-histoire" />
         <meta property="og:title" content="Notre Histoire | ClicketPaf" />

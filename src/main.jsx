@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/notre-histoire" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Articles />} />
-        <Route path="/article/:slug" element={<Article />} />
+        <Route path="/blog/:category/:slug" element={<Article />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<LegalMentions />} />
         <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />

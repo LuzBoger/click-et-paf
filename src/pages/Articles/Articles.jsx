@@ -11,7 +11,7 @@ const Articles = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
- 
+
       <Helmet>
         <title>Blog ClicketPaf</title>
         <meta name="description" content="Explorez notre blog Clicketpaf pour des articles amusants et inspirants sur des expériences insolites" />
@@ -32,81 +32,90 @@ const Articles = () => {
 
       <Navbar />
 
-<Header title="Blog" subtitle="Découvrez l'ensemble de nos articles" />
+      <Header title="Blog" subtitle="Découvrez l'ensemble de nos articles" />
 
-<nav className="bg-gray-200 py-3">
-  <div className="container mx-auto px-6">
-    <ul className="flex text-sm text-gray-700">
-      <li>
-        <a href="http://click-et-paf.com/" className="hover:text-blue-500">
-          <span>Accueil</span>
-        </a>
-        <span className="mx-2">/</span>
-      </li>
-      <li>
-        <span className="hover:text-blue-500">Blog</span>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <nav className="bg-gray-200 py-3">
+        <div className="container mx-auto px-6">
+          <ul className="flex text-sm text-gray-700">
+            <li>
+              <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+                <span>Accueil</span>
+              </a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">Blog</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<section className="container mx-auto px-6 py-12">
-  <article className="mb-12">
-    <h2 className="text-2xl font-bold text-gray-800 mb-6">Article en Vedette</h2>
-    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col lg:flex-row">
-      <img
-        src={featuredArticle.image}
-        alt={featuredArticle.title}
-        loading="lazy"
-        className="w-full lg:w-1/2 h-64 object-cover"
-      />
-      <div className="p-6 lg:w-1/2">
-        <h3 className="text-2xl font-bold text-gray-800">{featuredArticle.title}</h3>
-        <p className="mt-4 text-gray-600">{featuredArticle.content.substring(0, 150)}...</p>
-        <p className="mt-4 text-sm text-gray-500">{featuredArticle.author} - {featuredArticle.category} - {featuredArticle.date}</p>
-        <a
-          href={`/article/${featuredArticle.slug}`}
-          className="inline-block mt-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-        >
-          Lire l'article
-        </a>
-      </div>
-      
-    </div>
-  </article>
+      <section className="container mx-auto px-6 py-12">
+        <article className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Article en Vedette</h2>
+          <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col lg:flex-row">
+            <img
+              src={featuredArticle.image}
+              alt={featuredArticle.title}
+              loading="lazy"
+              className="w-full lg:w-1/2 h-64 object-cover"
+            />
+            <div className="p-6 lg:w-1/2">
+              <h3 className="text-2xl font-bold text-gray-800">{featuredArticle.title}</h3>
+              <p className="mt-4 text-gray-600">{featuredArticle.content.substring(0, 150)}...</p>
+              <p className="mt-4 text-sm text-gray-500">
+                <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset">
+                  {featuredArticle.author} - {featuredArticle.category} - {featuredArticle.date}
+                </span>
+              </p>
 
-  <section>
-    <h2 className="text-2xl font-bold text-gray-800 mb-6">Tous les Articles</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {otherArticles.map((article) => (
-        <article key={article.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-6">
-            <h3 className="text-lg font-bold text-gray-800">{article.title}</h3>
-            <p className="mt-2 text-gray-600">{article.content.substring(0, 100)}...</p>
-            <div className="flex items-center justify-between mt-4">
-              <span className="text-gray-500 text-sm">{article.date}</span>
               <a
-                href={`/article/${article.slug}`}
-                className="text-blue-500 hover:underline font-medium"
+                href={`/blog/${featuredArticle.category}/${featuredArticle.slug}`}
+                className="inline-block mt-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
               >
                 Lire l'article
               </a>
             </div>
-            <p className="mt-2 text-sm text-gray-500">{article.author} - {article.category}</p>
+
           </div>
         </article>
-      ))}
-    </div>
-  </section>
-</section>
 
-<Footer />
-</div>
-);
+        <section>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Tous les Articles</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {otherArticles.map((article) => (
+              <article key={article.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-gray-800">{article.title}</h3>
+                  <p className="mt-2 text-gray-600">{article.content.substring(0, 100)}...</p>
+                  <div className="flex items-center justify-between mt-4">
+                    <span className="text-gray-500 text-sm">{article.date}</span>
+                    <a
+                      href={`/blog/${article.category}/${article.slug}`}
+                      className="text-blue-500 hover:underline font-medium"
+                    >
+                      Lire l'article
+                    </a>
+                  </div>
+                  <p className="mt-2 text-sm text-gray-500">
+                <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset">
+                  {article.author} - {article.category} - {article.date}
+                </span>
+              </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      </section>
+
+      <Footer />
+    </div>
+  );
 };
 export default Articles;

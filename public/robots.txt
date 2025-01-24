@@ -1,6 +1,5 @@
 
 User-agent: *
-Disallow: /notre-histoire
 Disallow: /mentions-legales
 Disallow: /politique-de-confidentialite
 Disallow: /cgu
