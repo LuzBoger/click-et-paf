@@ -43,7 +43,8 @@ function App() {
           content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
         <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
-        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFGWSB20T3"></script>
+
       </Helmet>
       <NavBar />
       <Header title="Bienvenue sur ClicketPaf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
