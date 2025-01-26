@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 
 const Reviews = () => {
   const reviews = [
@@ -44,42 +43,11 @@ const Reviews = () => {
 
   return (
     <>
-      <Helmet>
-        {}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Click-et-Paf",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": averageRating.toFixed(1),
-              "reviewCount": reviews.length,
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "review": reviews.map(review => ({
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": review.name
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": review.rating
-              },
-              "datePublished": review.date,
-              "reviewBody": review.comment
-            }))
-          })}
-        </script>
-      </Helmet>
-
       <section 
         aria-labelledby="reviews-heading" 
         className="bg-gray-50 py-16"
         itemScope 
-        itemType="https://schema.org/Review"
+        itemType="https://schema.org/Service"
       >
         <div className="container mx-auto px-4">
           <h2 
@@ -92,7 +60,7 @@ const Reviews = () => {
             Découvrez les expériences insolites de nos clients satisfaits
           </p>
           <span className="sr-only"> - Note moyenne de {averageRating.toFixed(1)}/5 basée sur {reviews.length} avis</span>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {reviews.map((review) => (
               <article 
@@ -120,11 +88,11 @@ const Reviews = () => {
                     ))}
                   </div>
                 </div>
-                
+
                 <blockquote itemProp="reviewBody" className="text-gray-800 mb-4">
                   {review.comment}
                 </blockquote>
-                
+
                 <footer className="flex justify-between items-center">
                   <cite 
                     itemProp="author" 
@@ -145,8 +113,40 @@ const Reviews = () => {
           </div>
         </div>
       </section>
+
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service", 
+          "name": "Click-et-Paf",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": averageRating.toFixed(1),
+            "reviewCount": reviews.length,
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": reviews.map(review => ({
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": review.name
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": review.rating
+            },
+            "datePublished": review.date,
+            "reviewBody": review.comment,
+            "itemReviewed": {
+              "@type": "Service",
+              "name": "Click-et-Paf" 
+            }
+          }))
+        })}
+      </script>
     </>
   );
 };
 
-export default Reviews; 
+export default Reviews;
