@@ -48,35 +48,30 @@ const Reviews = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "review",
-            "name": "Click-et-Paf",
+            "@type": "Service",
+            "name": "ClicketPaf",
+            "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales.",
+            "serviceType": "Surprise slap experience",
+            "provider": {
+              "@type": "Organization",
+              "name": "ClicketPaf",
+              "url": "https://www.click-et-paf.com",
+              "telephone": "+33 1 23 45 67 89",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123 Rue de l'Imprévu",
+                "addressLocality": "Paris",
+                "addressRegion": "Île-de-France",
+                "postalCode": "75000",
+                "addressCountry": "FR"
+              }
+            },
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": averageRating.toFixed(1),
               "reviewCount": reviews.length,
               "bestRating": "5",
               "worstRating": "1"
-            },
-            "itemReviewed": {
-              "@type": "Service",
-              "name": "ClicketPaf",
-              "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales.",
-              "image": "/images/click_et_paf_experience_insolite.webp",
-              "serviceType": "Surprise slap experience",
-              "provider": {
-                "@type": "Organization",
-                "name": "ClicketPaf",
-                "url": "https://www.click-et-paf.com",
-                "telephone": "+33 1 23 45 67 89",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "  123 Rue de l'Imprévu",
-                  "addressLocality": "Paris",
-                  "addressRegion": "Île-de-France",
-                  "postalCode": "75000",
-                  "addressCountry": "FR"
-                }
-              }
             },
             "review": reviews.map(review => ({
               "@type": "Review",
@@ -95,43 +90,37 @@ const Reviews = () => {
         </script>
       </Helmet>
 
-      <section 
-        aria-labelledby="reviews-heading" 
+      <section
+        aria-labelledby="reviews-heading"
         className="bg-gray-50 py-16"
-        itemScope 
+        itemScope
         itemType="https://schema.org/Review"
       >
         <div className="container mx-auto px-4">
-          <h2 
-            id="reviews-heading" 
-            className="text-3xl font-semibold text-center mb-4 text-black"
-          >
+          <h2 id="reviews-heading" className="text-3xl font-semibold text-center mb-4 text-black">
             Ils ont testé Click-et-Paf !
           </h2>
           <p className="text-xl text-gray-800 text-center mb-12">
             Découvrez les expériences insolites de nos clients satisfaits
           </p>
           <span className="sr-only"> - Note moyenne de {averageRating.toFixed(1)}/5 basée sur {reviews.length} avis</span>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {reviews.map((review) => (
-              <article 
-                key={review.id} 
+              <article
+                key={review.id}
                 className="bg-white p-6 rounded-lg shadow-lg"
                 itemProp="review"
-                itemScope 
+                itemScope
                 itemType="https://schema.org/Review"
               >
                 <div className="flex items-center mb-4">
-                  <div 
-                    className="flex text-yellow-400" 
-                    aria-label={`Note : ${review.rating} sur 5`}
-                  >
+                  <div className="flex text-yellow-400" aria-label={`Note : ${review.rating} sur 5`}>
                     {[...Array(review.rating)].map((_, index) => (
-                      <svg 
-                        key={index} 
-                        className="w-5 h-5" 
-                        fill="currentColor" 
+                      <svg
+                        key={index}
+                        className="w-5 h-5"
+                        fill="currentColor"
                         viewBox="0 0 20 20"
                         aria-hidden="true"
                       >
@@ -140,23 +129,16 @@ const Reviews = () => {
                     ))}
                   </div>
                 </div>
-                
+
                 <blockquote itemProp="reviewBody" className="text-gray-800 mb-4">
                   {review.comment}
                 </blockquote>
-                
+
                 <footer className="flex justify-between items-center">
-                  <cite 
-                    itemProp="author" 
-                    className="font-semibold text-gray-900 not-italic"
-                  >
+                  <cite itemProp="author" className="font-semibold text-gray-900 not-italic">
                     {review.name}
                   </cite>
-                  <time 
-                    itemProp="datePublished" 
-                    dateTime={review.date}
-                    className="text-sm text-gray-700"
-                  >
+                  <time itemProp="datePublished" dateTime={review.date} className="text-sm text-gray-700">
                     {review.date}
                   </time>
                 </footer>
@@ -169,4 +151,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews; 
+export default Reviews;
