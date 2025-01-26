@@ -82,8 +82,9 @@ const Reviews = () => {
       "datePublished": review.date,
       "reviewBody": review.comment,
       "itemReviewed": {
-        "@type": "Organization",
-        "name": "ClicketPaf"
+        "@type": "Service",
+        "name": "ClicketPaf",
+        "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales."
       }
     }))
   };
