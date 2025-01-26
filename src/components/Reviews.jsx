@@ -46,56 +46,59 @@ const Reviews = () => {
     <>
       <Helmet>
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "ClicketPaf",
-            "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales.",
-            "serviceType": "Surprise slap experience",
-            "provider": {
-              "@type": "Organization",
+          {
+            `
+            {
+              "@context": "https://schema.org",
+              "@type": "Service",
               "name": "ClicketPaf",
-              "url": "https://www.click-et-paf.com",
-              "telephone": "+33 1 23 45 67 89",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "123 Rue de l'Imprévu",
-                "addressLocality": "Paris",
-                "addressRegion": "Île-de-France",
-                "postalCode": "75000",
-                "addressCountry": "FR"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": averageRating.toFixed(1),
-              "reviewCount": reviews.length,
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "review": reviews.map(review => ({
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": review.name
+              "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales.",
+              "serviceType": "Surprise slap experience",
+              "provider": {
+                "@type": "Organization",
+                "name": "ClicketPaf",
+                "url": "https://www.click-et-paf.com",
+                "telephone": "+33 1 23 45 67 89",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "123 Rue de l'Imprévu",
+                  "addressLocality": "Paris",
+                  "addressRegion": "Île-de-France",
+                  "postalCode": "75000",
+                  "addressCountry": "FR"
+                }
               },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": review.rating
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "${averageRating.toFixed(1)}",
+                "reviewCount": "${reviews.length}",
+                "bestRating": "5",
+                "worstRating": "1"
               },
-              "datePublished": review.date,
-              "reviewBody": review.comment
-            }))
-          })}
+              "review": [
+                ${reviews.map(review => `
+                  {
+                    "@type": "Review",
+                    "author": {
+                      "@type": "Person",
+                      "name": "${review.name}"
+                    },
+                    "reviewRating": {
+                      "@type": "Rating",
+                      "ratingValue": "${review.rating}"
+                    },
+                    "datePublished": "${review.date}",
+                    "reviewBody": "${review.comment}"
+                  }
+                `).join(',')}
+              ]
+            }
+            `
+          }
         </script>
       </Helmet>
 
-      <section
-        aria-labelledby="reviews-heading"
-        className="bg-gray-50 py-16"
-        itemScope
-        itemType="https://schema.org/Review"
-      >
+      <section aria-labelledby="reviews-heading" className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 id="reviews-heading" className="text-3xl font-semibold text-center mb-4 text-black">
             Ils ont testé Click-et-Paf !
@@ -107,13 +110,7 @@ const Reviews = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {reviews.map((review) => (
-              <article
-                key={review.id}
-                className="bg-white p-6 rounded-lg shadow-lg"
-                itemProp="review"
-                itemScope
-                itemType="https://schema.org/Review"
-              >
+              <article key={review.id} className="bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-center mb-4">
                   <div className="flex text-yellow-400" aria-label={`Note : ${review.rating} sur 5`}>
                     {[...Array(review.rating)].map((_, index) => (
@@ -124,21 +121,21 @@ const Reviews = () => {
                         viewBox="0 0 20 20"
                         aria-hidden="true"
                       >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 000-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
                     ))}
                   </div>
                 </div>
 
-                <blockquote itemProp="reviewBody" className="text-gray-800 mb-4">
+                <blockquote className="text-gray-800 mb-4">
                   {review.comment}
                 </blockquote>
 
                 <footer className="flex justify-between items-center">
-                  <cite itemProp="author" className="font-semibold text-gray-900 not-italic">
+                  <cite className="font-semibold text-gray-900 not-italic">
                     {review.name}
                   </cite>
-                  <time itemProp="datePublished" dateTime={review.date} className="text-sm text-gray-700">
+                  <time dateTime={review.date} className="text-sm text-gray-700">
                     {review.date}
                   </time>
                 </footer>
