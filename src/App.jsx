@@ -61,7 +61,7 @@ content="ClicketPaf vous propose des expériences insolites et amusantes, parfai
       <article id="articles" className="py-16 ">
         <ArticleCard />
       </article>
-      {/* <Reviews /> */}
+      <Reviews />
       
       <FAQ />
 
