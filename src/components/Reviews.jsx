@@ -7,35 +7,35 @@ const Reviews = () => {
       id: 1,
       name: "Sophie Martin",
       rating: 5,
-      comment: "Click-et-Paf a rendu l'anniversaire de mon meilleur ami inoubliable ! Le gifleur professionnel a parfaitement exécuté la surprise. Un service unique qui fait son effet 👋😂",
+      comment: "ClicketPaf a rendu l'anniversaire de mon meilleur ami inoubliable ! Le gifleur professionnel a parfaitement exécuté la surprise. Un service unique qui fait son effet 👋😂",
       date: "15 Mars 2024"
     },
     {
       id: 2,
       name: "Thomas Dubois",
       rating: 5,
-      comment: "Le service client de Click-et-Paf est exceptionnel ! La gifle était parfaitement dosée, comme demandé. Une expérience client vraiment unique. Je recommande vivement leurs services !",
+      comment: "Le service client est exceptionnel ! La gifle était parfaitement dosée, comme demandé. Une expérience client vraiment unique. Je recommande vivement leurs services !",
       date: "2 Mars 2024"
     },
     {
       id: 3,
       name: "Julie Leroux",
       rating: 5,
-      comment: "Grâce à Click-et-Paf, j'ai offert un moment mémorable à ma famille. Le côté décalé et professionnel de leur service est impressionnant. La meilleure expérience insolite à Paris ! 😄",
+      comment: "Grâce à ClicketPaf, j'ai offert un moment mémorable à ma famille. Le côté décalé et professionnel de leur service est impressionnant. La meilleure expérience insolite à Paris ! 😄",
       date: "28 Février 2024"
     },
     {
       id: 4,
       name: "Marc Dupont",
       rating: 5,
-      comment: "Click-et-Paf propose vraiment un concept unique en France. J'ai utilisé leur service pour un enterrement de vie de garçon, c'était parfait ! L'équipe est super réactive et professionnelle.",
+      comment: "ClicketPaf propose vraiment un concept unique en France. J'ai utilisé leur service pour un enterrement de vie de garçon, c'était parfait ! L'équipe est super réactive et professionnelle.",
       date: "20 Février 2024"
     },
     {
       id: 5,
       name: "Emma Laurent",
       rating: 5,
-      comment: "Quand on m'a parlé de Click-et-Paf, je ne savais pas à quoi m'attendre. Mais leur service de gifles surprises est juste génial ! Tout est bien pensé, de la réservation à la livraison de la gifle 👌",
+      comment: "Quand on m'a parlé de ClicketPaf, je ne savais pas à quoi m'attendre. Mais leur service de gifles surprises est juste génial ! Tout est bien pensé, de la réservation à la livraison de la gifle 👌",
       date: "15 Février 2024"
     }
   ];
@@ -51,7 +51,7 @@ const Reviews = () => {
     "provider": {
       "@type": "Organization",
       "name": "ClicketPaf",
-      "url": "https://www.click-et-paf.com",
+      "url": "https://www.ClicketPaf.com",
       "telephone": "+33 1 23 45 67 89",
       "address": {
         "@type": "PostalAddress",
@@ -100,7 +100,7 @@ const Reviews = () => {
       <section aria-labelledby="reviews-heading" className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 id="reviews-heading" className="text-3xl font-semibold text-center mb-4 text-black">
-            Ils ont testé Click-et-Paf !
+            Ils ont testé ClicketPaf !
           </h2>
           <p className="text-xl text-gray-800 text-center mb-12">
             Découvrez les expériences insolites de nos clients satisfaits
