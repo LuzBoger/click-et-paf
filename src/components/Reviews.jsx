@@ -42,61 +42,10 @@ const Reviews = () => {
 
   const averageRating = reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length;
 
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "ClicketPaf",
-    "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales.",
-    "serviceType": "Surprise slap experience",
-    "provider": {
-      "@type": "Organization",
-      "name": "ClicketPaf",
-      "url": "https://www.ClicketPaf.com",
-      "telephone": "+33 1 23 45 67 89",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Rue de l'Imprévu",
-        "addressLocality": "Paris",
-        "addressRegion": "Île-de-France",
-        "postalCode": "75000",
-        "addressCountry": "FR"
-      }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": averageRating.toFixed(1),
-      "reviewCount": reviews.length,
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": reviews.map((review) => ({
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": review.name
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": review.rating
-      },
-      "datePublished": review.date,
-      "reviewBody": review.comment,
-      "itemReviewed": {
-        "@type": "Service",
-        "name": "ClicketPaf",
-        "description": "ClicketPaf propose des expériences de gifles surprises uniques pour des occasions spéciales."
-      }
-    }))
-  };
+  
 
   return (
     <>
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
-      </Helmet>
-
       <section aria-labelledby="reviews-heading" className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 id="reviews-heading" className="text-3xl font-semibold text-center mb-4 text-black">
