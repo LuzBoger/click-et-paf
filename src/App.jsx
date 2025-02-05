@@ -19,11 +19,10 @@ function App() {
         <title>ClicketPaf | Pour des expériences insolites et uniques</title>
         <meta
           name="description"
-          content="ClicketPaf propose des expériences insolites pour surprendre et amuser vos proches. Découvrez nos services uniques"
-        />
+content="ClicketPaf vous propose des expériences insolites et amusantes, parfaites pour surprendre vos proches avec des moments uniques et décalés. Découvrez nos services exclusifs." />
         <meta
           name="keywords"
-          content="click,paf,click&paf,click-et-paf,clicketpaf, expériences insolites, expériences surprenante,gifles, expériences décalées, moments uniques, idées originales, services, surprises, humour"
+          content="click,paf,click&paf,click-et-paf,ClicketPaf,concours de gifle, expériences insolites,expériences, expériences surprenantes,gifles, expériences décalées, moments uniques, services, surprises"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
@@ -59,9 +58,9 @@ function App() {
       </section>
 
 
-      <section id="articles" className="py-16 ">
+      <article id="articles" className="py-16 ">
         <ArticleCard />
-      </section>
+      </article>
       <Reviews />
       
       <FAQ />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Importer Link de react-router-dom
+import { Link } from "react-router-dom"; 
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ function Navbar() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center text-white text-2xl font-bold">
-            Click-et-Paf
+            ClicketPaf
           </Link>
 
           {}
