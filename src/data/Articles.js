@@ -245,7 +245,7 @@ Offrez une gifle, un sourire et un moment inoubliable. Que vous soyez à la rech
     "imageTitle": "Séance de gifle thérapeutique professionnelle",
     "category": "bien-être",
     "author": "Sofiane Chadili",
-    "date": "2024-01-15"
+    "date": "2025-01-15"
   },
   {
     "id": 7,

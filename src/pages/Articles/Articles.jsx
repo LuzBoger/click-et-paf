@@ -97,7 +97,6 @@ const Articles = () => {
                   <h3 className="text-lg font-bold text-gray-800">{article.title}</h3>
                   <p className="mt-2 text-gray-600">{article.content.substring(0, 100)}...</p>
                   <div className="flex items-center justify-between mt-4">
-                    <span className="text-gray-500 text-sm">{article.date}</span>
                     <a
                       href={`/blog/${article.category}/${article.slug}`}
                       className="text-blue-500 hover:underline font-medium"
