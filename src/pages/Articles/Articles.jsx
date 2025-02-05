@@ -6,8 +6,34 @@ import Navbar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 
 const Articles = () => {
+  const sortedArticles = allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
   const featuredArticle = allArticles[0];
   const otherArticles = allArticles.slice(1);
+
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog ClicketPaf",
+    "url": "https://click-et-paf.com/blog",
+    "description": "Découvrez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Clicketpaf",
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://click-et-paf.com/blog"
+    },
+    "blogPosts": sortedArticles.map(article => ({
+      "@type": "BlogPosting",
+      "headline": article.title,
+      "image": article.image,
+      "author": article.author,
+      "datePublished": article.date,
+      "url": `https://click-et-paf.com/blog/${article.category}/${article.slug}`,
+      "description": article.content.substring(0, 150)
+    }))
+  };
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -18,7 +44,7 @@ const Articles = () => {
         <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:url" content="http://click-et-paf.com/blog" />
+        <meta property="og:url" content="https://click-et-paf.com/blog" />
         <meta property="og:title" content="Clicketpaf: Des expériences insolites et des services surprenants" />
         <meta property="og:description" content="Surprenez vos proches avec des gifles virtuelles et des expériences insolites grâce à Clicketpaf. Offrez des moments uniques et mémorables avec notre service en ligne." />
         <meta property="og:image" content={featuredArticle.image} />
@@ -27,7 +53,10 @@ const Articles = () => {
         <meta name="twitter:title" content="Clicketpaf: Des expériences insolites et des services surprenants" />
         <meta name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf." />
         <meta name="twitter:image" content={featuredArticle.image} />
-        <link rel="canonical" href={`http://click-et-paf.com/blog`} />
+        <link rel="canonical" href={`https://click-et-paf.com/blog`} />
+        <script type="application/ld+json">
+          {JSON.stringify(schemaData)}
+        </script>
       </Helmet>
 
       <Navbar />
@@ -38,7 +67,7 @@ const Articles = () => {
         <div className="container mx-auto px-6">
           <ul className="flex text-sm text-gray-700">
             <li>
-              <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+              <a href="https://click-et-paf.com/" className="hover:text-blue-500">
                 <span>Accueil</span>
               </a>
               <span className="mx-2">/</span>
@@ -65,7 +94,7 @@ const Articles = () => {
               <p className="mt-4 text-gray-600">{featuredArticle.content.substring(0, 150)}...</p>
               <p className="mt-4 text-sm text-gray-500">
                 <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset">
-                  {featuredArticle.author} - {featuredArticle.category} - {featuredArticle.date}
+                {featuredArticle.date} - {featuredArticle.author} - {featuredArticle.category} - 
                 </span>
               </p>
 
@@ -104,7 +133,7 @@ const Articles = () => {
                   </div>
                   <p className="mt-2 text-sm text-gray-500">
                 <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset">
-                  {article.author} - {article.category} - {article.date}
+                {article.date} - {article.author} - {article.category}  
                 </span>
               </p>
                 </div>

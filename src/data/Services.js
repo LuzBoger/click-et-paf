@@ -20,7 +20,9 @@ export const services = [
   {
     title: "Stage",
     description:
+
       "Découvrez les secrets de l’art de donner et de recevoir une gifle avec notre stage interactif. Que ce soit pour libérer de la tension, exprimer des émotions ou simplement par plaisir, nos formateurs vous guideront à travers les différentes techniques et règles de sécurité pour une expérience maîtrisée et enrichissante. Vous repartirez avec des compétences pratiques et des souvenirs mémorables !",
+
     icon: "🎓",
   },
   {

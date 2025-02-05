@@ -6,8 +6,9 @@ import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
 const Article = () => {
-  const {category, slug } = useParams();
+  const { category, slug } = useParams();
   const article = allArticles.find(a => a.category === category && a.slug === slug);
+
   if (!article) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -26,7 +27,7 @@ const Article = () => {
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
         <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content={'Moussi Sid-Ahmed'} />
+        <meta name="author" content={`${article.author}`} />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:url" content={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
@@ -40,7 +41,7 @@ const Article = () => {
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.content.slice(0, 150) + '...'} />
         <meta name="twitter:image" content={article.image} />
-        <meta name="twitter:creator" content={'Moussi Sid-Ahmed'} />
+        <meta name="twitter:creator" content={`${article.author}`} />
 
         <link rel="canonical" href={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
 
@@ -60,7 +61,7 @@ const Article = () => {
               "url": "http://click-et-paf.com/blog/${article.category}/${article.slug}",
               "publisher": {
                 "@type": "Organization",
-                "name": "Click-et-Paf"
+                "name": "ClicketPaf"
               }
             }
           `}
@@ -78,8 +79,8 @@ const Article = () => {
               <span className="mx-2">/</span>
             </li>
             <li>
-            <a href="http://click-et-paf.com/blog" className="hover:text-blue-500">
-              <span >Blog</span>
+              <a href="http://click-et-paf.com/blog" className="hover:text-blue-500">
+                <span>Blog</span>
               </a>
               <span className="mx-2">/</span>
             </li>
@@ -89,15 +90,14 @@ const Article = () => {
             </li>
             <li>
               <span className="hover:text-blue-500">{article.slug}</span>
-              </li>
-
+            </li>
           </ul>
         </div>
       </nav>
+
       <main className="px-6 py-12 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-12 mb-12">
         <article>
           <header className="mb-8">
-
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">{article.title}</h1>
 
             <img
@@ -115,35 +115,10 @@ const Article = () => {
               </p>
             ))}
           </section>
-
-          <footer className="mt-12">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Articles connexes</h2>
-            <ul className="list-disc list-inside space-y-4 text-gray-700">
-              {allArticles
-                .filter((item) => item.id !== article.id)
-                .slice(0, 3)
-                .map((related) => (
-                  <li key={related.id} className="hover:text-blue-600 transition-all duration-300">
-                    <a href={`/blog/${related.category}/${related.slug}`} className="text-xl font-medium">
-                      {related.title}
-                    </a>
-                  </li>
-                ))}
-            </ul>
-
-            <div className="mt-8 text-center">
-              <a
-                href="/blog"
-                className="text-blue-600 hover:underline text-lg"
-              >
-                Retour à la liste des articles
-              </a>
-            </div>
-          </footer>
         </article>
       </main>
 
-      <Footer />
+      {/* Suppression du Footer */}
     </div>
   );
 };
