@@ -18,7 +18,9 @@ export const allArticles = [
     "content": "Dans un monde où l’originalité et l’humour prennent de plus en plus de place, ClicketPaf est la plateforme commerciale qui bouscule les codes traditionnels des services en ligne. Marre des cadeaux classiques et des surprises trop prévisibles ? Il est temps de découvrir des expériences uniques avec ClicketPaf. Ce site innovant propose des formules insolites, allant d’une simple gifle bien placée à des expériences totalement décalées, pour transformer vos moments ordinaires en souvenirs mémorables.\n\nImaginez offrir à un ami une gifle surprise qui suscite des rires et crée des souvenirs inoubliables. Mais ce n’est pas tout ! ClicketPaf va encore plus loin avec des services farfelus, comme une rencontre impromptue avec un imitateur de célébrité ou un massage des mains par des experts. Un concept totalement inattendu qui vous permettra de vous détendre et d’ajouter un peu de folie dans vos moments de détente. Que ce soit pour un anniversaire, un enterrement de vie de célibataire, ou simplement pour égayer votre quotidien, les formules proposées s’adaptent à toutes les occasions.\n\nLe principe de ClicketPaf est simple : choisissez une formule en ligne, personnalisez-la selon vos envies, et voilà ! Le site vous propose des prestations qui sortent de l’ordinaire et réservent des moments totalement inoubliables. C’est le cadeau parfait pour ceux qui cherchent à marquer les esprits. Pourquoi ne pas oser l’expérience ? Un simple clic sur ClicketPaf vous plonge dans un univers où l’humour, la surprise et l’étrangeté se rencontrent pour créer des moments uniques. N'attendez plus et transformez chaque instant banal en souvenir épique !",
     "image": "/images/click_et_paf_experience_insolite.webp",
     "imageTitle": "Expériences insolites avec ClicketPaf",
-    "category": "experiences"
+    "category": "experiences",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2024-12-19"
   },
   {
     "id": 2,
@@ -26,7 +28,9 @@ export const allArticles = [
     "content": "Lors des Oscars 2022, l'incident qui a secoué le monde entier fut sans doute la gifle donnée par Will Smith à Chris Rock. Cette scène spectaculaire a laissé tout le public abasourdi et a fait couler beaucoup d'encre dans les médias. Mais et si nous vous disions qu'il y a une autre explication à ce geste inattendu ? Et si Will Smith avait utilisé une solution plus rapide et plus pratique pour faire passer son message ?\n\nC’est là que ClicketPaf, notre plateforme innovante de \"solutions express\", entre en jeu.\n\n La méthode révolutionnaire : un simple clic pour réagir !\nChez ClicketPaf, nous comprenons que parfois les émotions peuvent déborder et qu’il est difficile de contrôler une situation délicate. C’est pour cela que nous avons conçu des forfaits personnalisés pour \"réagir à chaud\" en toute simplicité. Besoin de donner une gifle ? D'un coup de poing express ou même d'une claque à distance ? Nos formules sont adaptées à tous vos besoins, qu'ils soient professionnels ou personnels.\n\n Le choix de Will Smith ?\nL'incident aux Oscars pourrait bien être la preuve que Will Smith a opté pour notre solution révolutionnaire. Une simple souscription à notre service aurait pu lui permettre de \"réagir instantanément\" à la blague de Chris Rock. Avec notre formule \"Claque VIP\" qui vous connecte instantanément à un acteur formé et prêt à intervenir, il aurait pu assumer une réaction rapide et efficace sans l’inconvénient d’avoir à se déplacer.\n\nNotre service vous garantit une exécution parfaite : la gifle parfaite, à la bonne intensité et au moment où vous en avez besoin. Après tout, qui mieux qu’un acteur professionnel pour délivrer un coup digne des plus grands films d’action ?\n\n Une solution à toute épreuve\nPourquoi s’embêter à organiser une confrontation en personne quand vous pouvez avoir un professionnel qui s’occupe de tout ? Notre site offre des options variées allant de la gifle légère à la claque retentissante, selon l'effet recherché. Et si vous avez peur de la réaction de l'autre personne ? Pas de panique, nous avons un service \"Conseil Apaisant\" qui vous aide à maîtriser la situation et à gérer les conséquences sociales.\n\nDe plus, avec ClicketPaf, vous pouvez choisir la célébrité qui exécutera la gifle, garantissant ainsi une prestation de haut niveau et un impact immédiat.\n\n Conclusion : Quand la célébrité adopte ClicketPaf…\nIl est clair que des gestes comme celui de Will Smith aux Oscars 2022 suscitent de nombreuses discussions. Mais imaginez un monde où une simple plateforme comme ClicketPaf peut vous offrir la possibilité de prendre les choses en main, en toute discrétion et efficacité.\n\nEt vous, êtes-vous prêt à réagir à votre manière avec ClicketPaf ? N’attendez plus pour découvrir nos solutions pour des actions immédiates ! Réagissez au moment où cela compte le plus, et faites-le avec style !",
     "image": "/images/will_smith_click_et_paf_solution.webp",
     "imageTitle": "La solution ClicketPaf pour des réactions instantanées",
-    "category": "celebrites"
+    "category": "celebrites",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2024-12-19"
 
   },
   {
@@ -58,6 +62,8 @@ export const allArticles = [
     "image": "/images/services_en_ligne.webp",
     "imageTitle": "Service de Gifles en Ligne",
     "category": "humour",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2024-12-25"
 
   },
   {
@@ -80,7 +86,9 @@ export const allArticles = [
     `,
     "image": "/images/tendances_insolites.webp",
     "imageTitle": "Les Tendances Insolites",
-    "category": "tendances"
+    "category": "tendances",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2024-12-25"
   },
   {
     "id": 5,
@@ -88,7 +96,9 @@ export const allArticles = [
     "content": "Hollywood, où le glamour règne en maître, est constamment à la recherche de nouvelles façons de surprendre. Parmi les tendances les plus inattendues qui émergent, **ClicketPaf** se distingue comme une plateforme audacieuse qui redéfinit les interactions. Avec son concept novateur, proposant des **gifles réelles** orchestrées de manière professionnelle, elle attire l'attention des célébrités qui cherchent à casser leur image figée et à générer un buzz inédit.\n\n La Gifle : Une Méthode Inédite pour Redéfinir son Image\n\nDans une industrie où les moindres gestes sont scrutés, les stars se tournent vers des expériences inédites pour bousculer les attentes. **ClicketPaf** offre cette opportunité grâce à ses services d'**expériences insolites**. Que ce soit pour surprendre lors d'une interview ou choquer à une première de film, la **gifle** devient un outil puissant. Prenez par exemple un acteur connu pour son sérieux qui, soudain, se prête à une gifle humoristique : cela montre une facette plus légère et humaine.\n\nEn assumant ces moments de spontanéité et de légèreté, les stars renforcent leur lien avec leur public, qui apprécie l’authenticité. En effet, cette tendance reflète une nouvelle forme de storytelling où la vulnérabilité et l'humour sont au cœur des interactions publiques.\n\n Pourquoi les Stars S'approprient le Concept ?\n\nLes réseaux sociaux ont bouleversé les stratégies de communication des célébrités. Avec l'essor de plateformes comme Instagram et TikTok, les actions inattendues attirent plus d'engagement que jamais. Une vidéo où une célébrité se prête à une **gifle orchestrée** peut rapidement devenir virale, générant des millions de vues et des discussions animées.\n\nDe plus, la **gifle surprise** envoie un message subtil : un acte volontaire de se moquer des conventions hollywoodiennes. Les fans, souvent lassés par les campagnes publicitaires standardisées, réagissent avec enthousiasme à ces moments insolites qui brisent la monotonie du marketing traditionnel.\n\n Le Service de Gifle en Ligne : Une Nouvelle Tendance\n\nAvec **ClicketPaf**, les possibilités sont infinies. Les célébrités peuvent opter pour des prestations personnalisées, allant d’une gifle humoristique lors d’une interview jusqu’à une interaction surprise avec leurs fans. Ce service ne se limite pas à l'amusement ; il devient un outil marketing sophistiqué utilisé par les studios de cinéma pour promouvoir des films ou renforcer l’image publique des stars.\n\nImaginez une première de film où un acteur emblématique organise une mise en scène où il gifle (ou est giflé) par un autre acteur sur le tapis rouge. Ce moment, soigneusement planifié, devient immédiatement le sujet de discussion sur les réseaux sociaux, éclipsant les annonces traditionnelles.\n\n Une Évolution Vers des Expériences Plus Personnalisées\n\nL'un des grands attraits de **ClicketPaf** est sa capacité à offrir des expériences personnalisées. Les stars peuvent choisir l'intensité de la surprise, la scénarisation de l'acte et même intégrer des messages spécifiques pour captiver davantage leur public. Par exemple :\n\n- Une **gifle légère et comique** pour signaler une rupture symbolique avec une image passée.\n- Une **interaction avec les fans**, où un groupe chanceux peut participer à un jeu interactif se terminant par une gifle humoristique.\n- Des campagnes caritatives où chaque gifle entraîne un don à une cause importante, créant un lien émotionnel fort.\n\n L'Impact des Gifles sur le Public\n\nCe qui rend cette tendance particulièrement captivante, c'est sa capacité à susciter des émotions. Les gifles, bien qu'humoristiques, représentent un choc visuel et émotionnel qui capte immédiatement l'attention. Pour les stars, cela devient un levier pour montrer leur courage et leur sens de l'humour.\n\nLes fans, quant à eux, adorent ces moments inattendus qui humanisent leurs idoles. Les vidéos et photos de ces instants circulent rapidement sur les réseaux sociaux, multipliant l’exposition des célébrités tout en promouvant la plateforme **ClicketPaf**.\n\n Conclusion : Une Réinvention du Rôle des Stars\n\nEn embrassant cette tendance, les célébrités montrent qu’elles ne sont pas uniquement des icônes intouchables, mais des individus capables de s’amuser avec leur image. **ClicketPaf** est bien plus qu’un service de **gifles en ligne** : c’est un phénomène culturel qui redéfinit le lien entre les stars et leur public. Dans un monde saturé de contenu, cette approche audacieuse et décalée offre une bouffée d'air frais, transformant chaque gifle en un moment inoubliable.",
     "image": "/images/hollywood_star.webp",
     "imageTitle": "Célébrités hollywoodiennes participant à une scène humoristique de gifle.",
-    "category": "celebrites"
+    "category": "celebrites",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2024-12-25"
 
   },
   {
@@ -145,7 +155,9 @@ export const allArticles = [
       La gifle thérapeutique représente une innovation majeure dans le domaine du bien-être. Bien que surprenante au premier abord, cette approche unique proposée par ClicketPaf offre une alternative efficace aux méthodes traditionnelles de gestion du stress.`,
     "image": "/images/therapy.webp",
     "imageTitle": "Séance de gifle thérapeutique professionnelle",
-    "category": "bien-être"
+    "category": "bien-être",
+    "author": "Sofiane Chadili",
+    "date": "2024-01-15"
   },
   {
     "id": 7,
@@ -214,7 +226,9 @@ export const allArticles = [
       Le team building par la gifle représente une révolution dans le monde de l'entreprise. Cette approche unique proposée par ClicketPaf transforme la dynamique des équipes tout en créant des moments mémorables. Dans un monde professionnel en quête perpétuelle d'innovation, cette méthode s'impose comme la solution idéale pour des équipes plus soudées et plus performantes.`,
     "image": "/images/teambuilding.webp",
     "imageTitle": "Séance de team building avec gifles professionnelles",
-    "category": "team-building"
+    "category": "team-building",
+    "author": "Sofiane Chadili",
+    "date": "2025-01-15"
   },
   {
     "id": 8,
@@ -324,7 +338,9 @@ export const allArticles = [
     La Gifle Rafraîchissante révolutionne l'expérience festival en combinant divertissement et bien-être. Cette innovation signée ClicketPaf prouve encore une fois que la gifle peut être réinventée pour créer des moments uniques et rafraîchissants.`,
     "image": "/images/festival.webp",
     "imageTitle": "Festival d'été avec animation Gifle Rafraîchissante",
-    "category": "festival"
+    "category": "festival",
+    "author": "Sofiane Chadili",
+    "date": "2025-01-15"
   },
   {
     "id": 9,
@@ -422,7 +438,9 @@ export const allArticles = [
       La Gifle Démocratique représente une innovation majeure dans le fonctionnement de nos institutions. Cette approche unique développée par ClicketPaf modernise le débat politique tout en préservant les fondements de notre démocratie. Une révolution pacifique qui pourrait bien changer la face de la politique moderne.`,
     "image": "/images/politique.webp",
     "imageTitle": "Séance parlementaire avec démonstration de Gifle Démocratique",
-    "category": "politique"
+    "category": "politique",
+    "author": "Sofiane Chadili",
+    "date": "2025-01-15"
   },
   {
     "id": 10,
@@ -524,7 +542,9 @@ export const allArticles = [
         L'introduction de la Gifle Sportive aux JO 2028 marque un tournant historique dans l'histoire du sport. ClicketPaf, en tant que partenaire officiel, s'engage à développer cette discipline avec excellence et innovation. Une nouvelle ère s'ouvre pour le sport mondial.`,
     "image": "/images/olympique.webp",
     "imageTitle": "Démonstration de Gifle Sportive Olympique",
-    "category": "sport"
+    "category": "sport",
+    "author": "Sofiane Chadili",
+    "date": "2025-01-15"
 
   },
   {
@@ -533,7 +553,9 @@ export const allArticles = [
     "content": "À l'ère numérique, où la quête d'originalité et de visibilité est constante, les influenceurs se tournent vers des concepts innovants pour capter l'attention. Parmi ces idées novatrices, **ClicketPaf** émerge comme une plateforme incontournable. Proposant des **gifles réelles** ou des interactions humoristiques, elle permet aux créateurs de contenu de se démarquer en offrant des moments inoubliables à leur audience.\n\n Le Pouvoir de la Gifle dans le Marketing Numérique\n\nLes **gifles**, dans le cadre de **ClicketPaf**, ne sont pas de simples gestes humoristiques. Elles incarnent une stratégie visant à maximiser l'engagement et à provoquer des émotions. Un influenceur qui partage une vidéo où il reçoit une **gifle orchestrée** ou en offre une à un autre créateur génère instantanément de l'intérêt.\n\nCes contenus inattendus brisent la monotonie des posts traditionnels et incitent les abonnés à réagir, commenter, et partager. Les moments de surprise créés par **ClicketPaf** deviennent rapidement des éléments viraux, assurant une visibilité maximale à leurs auteurs.\n\n Les Défis et Jeux : Un Engagement Accru\n\nLes influenceurs utilisent également **ClicketPaf** pour organiser des concours et défis engageants. Ces campagnes incluent souvent des interactions directes avec les abonnés, comme :\n\n- Offrir la chance à un fan de participer à une expérience unique, comme une gifle humoristique lors d’un événement en direct.\n- Lancer un défi où les participants doivent relever des missions pour gagner une interaction insolite avec l’influenceur.\n\nCes initiatives renforcent le lien entre les créateurs et leur communauté tout en augmentant l'intérêt pour la plateforme.\n\n ClicketPaf comme Tremplin pour des Contenus Viraux\n\nLa clé du succès pour tout influenceur est de produire des contenus qui se démarquent. **ClicketPaf** facilite cette tâche en proposant des services qui créent des moments mémorables. Par exemple :\n\n- Une mise en scène où un créateur reçoit une gifle de son collègue en plein live.\n- Une vidéo humoristique où un abonné chanceux offre une **gifle légère** à son influenceur préféré dans un contexte scénarisé.\n\nCes scénarios, bien que simples, captivent l’audience grâce à leur originalité et leur potentiel viral.\n\n L'Impact des Expériences Insolites sur la Croissance des Abonnés\n\nEn intégrant des expériences inattendues dans leurs contenus, les influenceurs attirent un public nouveau tout en fidélisant leur audience existante. Les **gifles réelles**, bien qu'humoristiques, suscitent une curiosité qui pousse à l’abonnement et à l’interaction. De plus, elles positionnent les créateurs comme des pionniers dans l’adoption de nouvelles tendances numériques.\n\n Conclusion : ClicketPaf, un Outil Incontournable pour les Créateurs\n\nDans un paysage numérique en constante évolution, **ClicketPaf** se démarque comme une plateforme qui aide les influenceurs à repousser les limites de la créativité. Les **gifles réelles** et autres expériences insolites deviennent des moyens stratégiques pour capter l’attention, engager le public et renforcer leur présence en ligne. Avec **ClicketPaf**, chaque interaction devient une opportunité de marquer les esprits et de transformer l'ordinaire en extraordinaire.",
     "image": "/images/influenceur.webp",
     "imageTitle": "Influenceurs créant du contenu viral avec ClicketPaf.",
-    "category": "influenceurs"
+    "category": "influenceurs",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2025-01-05"
   },
   {
     "id": 12,
@@ -541,7 +563,9 @@ export const allArticles = [
     "content": "ClicketPaf : Une Nouvelle Approche du Divertissement Politique\n\nLe monde politique, souvent perçu comme rigide et sérieux, a vu émerger une tendance aussi innovante qu'inattendue : ClicketPaf. Cette plateforme commerciale offre des formules surprenantes où des individus peuvent être giflés symboliquement, mais aussi participer à d'autres expériences tout aussi décalées. Plus qu'un simple service de distraction, elle redéfinit les limites du marketing et de l'humour dans la sphère publique.\n\nQuand la Politique Rencontre l'Humour\n\nDans un monde où l'image des politiciens est cruciale, ClicketPaf propose des scénarios interactifs mêlant sérieux et légèreté. Imaginez une scène où un candidat, pour répondre à une question embarrassante, s'engage à recevoir une gifle symbolique. Le résultat ? Une explosion de rires et une mémorisation accrue du moment par l'audience.\n\nCe concept s'est popularisé lors de campagnes électorales où des débats tendus se sont transformés en spectacles humoristiques. En utilisant le service de \"gifles express\", les candidats peuvent désamorcer des situations délicates tout en renforçant leur proximité avec le public.\n\nLes Formules Offertes par ClicketPaf\n\n- La Gifle Symbolique : Un service idéal pour des interactions publiques légères.\n- La Mise en Scène Humoristique : Inclut des performances théâtrales où des figures publiques participent à des sketches improvisés.\n- Le Débat Détendu : Permet aux politiciens d'interagir avec le public tout en brisant les barrières habituelles.\n\nCes formules, combinées à des campagnes publicitaires bien pensées, garantissent une attention médiatique accrue.\n\nComment ClicketPaf Révolutionne la Stratégie Politique\n\nAvec une saturation croissante des formats politiques traditionnels, les stratèges cherchent des alternatives engageantes. ClicketPaf offre un outil stratégique qui attire un large public, allant des jeunes électeurs avides de divertissement aux observateurs politiques curieux.\n\nPar exemple, une campagne peut inclure un \"Marathon Paf\" où les participants doivent relever des défis politiques, chaque échec étant ponctué d'une gifle symbolique. Ce format, ludique mais réfléchi, encourage l'engagement tout en assurant une mémorisation durable des messages clés.\n\nConclusion : L'Humour au Service de la Réflexion Sociale\n\nEn fin de compte, ClicketPaf transforme la politique en un terrain d'expérimentations sociales et humoristiques. Les leaders adoptant ce modèle montrent une facette plus humaine et accessible. Avec des formules alliant innovation, surprise et interaction, cette plateforme réinvente la communication politique pour un impact durable.",
     "image": "/images/macron_gifle.webp",
     "imageTitle": "Illustration humoristique de politiciens utilisant ClicketPaf.",
-    "category": "politique"
+    "category": "politique",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2025-01-05"
   },
   {
     "id": 13,
@@ -549,7 +573,9 @@ export const allArticles = [
     "content": "ClicketPaf : Pimentez Vos Fêtes de Noël avec des Expériences Insolites\n\nNoël est le moment idéal pour surprendre ses proches et partager des éclats de rire. Cette année, laissez tomber les cadeaux traditionnels et adoptez une approche complètement nouvelle avec ClicketPaf, le site qui propose des formules uniques pour rendre vos fêtes inoubliables.\n\nDes Formules Uniques pour des Moments Inoubliables\n\nPlutôt que d'offrir une paire de chaussettes ou un gadget inutile, pourquoi ne pas opter pour une expérience personnalisée ? ClicketPaf propose des prestations originales où vos proches peuvent participer à des jeux interactifs ou même recevoir une gifle symbolique, le tout dans un esprit convivial et humoristique.\n\n- Le Duel de Noël : Un jeu compétitif où les participants doivent répondre à des questions de culture générale. Chaque mauvaise réponse est ponctuée d'une gifle symbolique.\n- Le Cadeau Surprise : Un membre de la famille reçoit un cadeau mystérieux accompagné d'une expérience insolite.\n- Le Marathon des Rires : Une session de sketches et de défis humoristiques où chacun participe à créer des souvenirs uniques.\n\nPourquoi ClicketPaf Rend vos Noëls Spéciaux\n\nL'originalité des formules ClicketPaf repose sur leur capacité à transformer des moments ordinaires en souvenirs extraordinaires. En optant pour ces services, vous ne faites pas que divertir vos proches : vous créez une expérience partagée qui renforce les liens familiaux.\n\nUn scénario classique pourrait inclure un jeu interactif où les participants doivent ouvrir des cadeaux contenant des instructions pour des actions humoristiques. Par exemple, \"giflez symboliquement votre voisin\" ou \"improvisez une chanson de Noël\". Le résultat ? Des fous rires garantis.\n\nUn Impact Durable\n\nLes événements créés par ClicketPaf ne se limitent pas à l'instant présent. Les photos et vidéos de ces moments deviennent des souvenirs précieux qui seront partagés pendant des années. En outre, ces interactions renforcent l'esprit de Noël en mettant l'accent sur le plaisir et le lien humain.\n\nConclusion : Une Nouvelle Manière de Célébrer Noël\n\nAvec ClicketPaf, transformez vos fêtes de fin d'année en une aventure pleine de surprises et d'éclats de rire. Adoptez une approche novatrice qui allie humour, interaction et création de souvenirs inoubliables. Faites de ce Noël une célébration à laquelle tout le monde voudra participer !",
     "image": "/images/noel_gifle.webp",
     "imageTitle": "Famille s'amusant avec des défis ClicketPaf autour d'un sapin de Noël.",
-    "category": "fête"
+    "category": "fête",
+    "author": "Moussi Sid-Ahmed",
+    "date": "2025-01-05"
     
   },
 ].map((article) => ({

@@ -20,7 +20,7 @@ export const services = [
   {
     title: "Stage",
     description:
-      "Apprenez l'art de donner et recevoir ",
+      "Apprenez à maîtriser l’art subtil de donner et recevoir une gifle en toute sécurité. Un stage encadré par des professionnels",
     icon: "🎓",
   },
   {
