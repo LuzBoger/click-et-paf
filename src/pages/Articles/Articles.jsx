@@ -10,30 +10,7 @@ const Articles = () => {
   const featuredArticle = allArticles[0];
   const otherArticles = allArticles.slice(1);
 
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "name": "Blog ClicketPaf",
-    "url": "https://click-et-paf.com/blog",
-    "description": "Découvrez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Clicketpaf",
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://click-et-paf.com/blog"
-    },
-    "blogPosts": sortedArticles.map(article => ({
-      "@type": "BlogPosting",
-      "headline": article.title,
-      "image": article.image,
-      "author": article.author,
-      "datePublished": article.date,
-      "url": `https://click-et-paf.com/blog/${article.category}/${article.slug}`,
-      "description": article.content.substring(0, 150)
-    }))
-  };
+
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -54,9 +31,6 @@ const Articles = () => {
         <meta name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf." />
         <meta name="twitter:image" content={featuredArticle.image} />
         <link rel="canonical" href={`https://click-et-paf.com/blog`} />
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
       </Helmet>
 
       <Navbar />
