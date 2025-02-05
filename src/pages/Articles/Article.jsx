@@ -61,7 +61,7 @@ const Article = () => {
               "url": "http://click-et-paf.com/blog/${article.category}/${article.slug}",
               "publisher": {
                 "@type": "Organization",
-                "name": "Click-et-Paf"
+                "name": "ClicketPaf"
               }
             }
           `}
