@@ -16,12 +16,12 @@ const Contact = () => {
                 <meta property="og:url" content="https://www.click-et-paf.com/contact" />
                 <meta property="og:title" content="Contactez-Nous | ClicketPaf<" />
                 <meta property="og:description" content="Contactez l'équipe de ClicketPaf pour toute question, idée, ou demande d'information." />
-                <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+                <meta property="og:image" content="/images/logo-click-et-paf.webp" />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Contactez-Nous | ClicketPaf<" />
                 <meta name="twitter:description" content="Contactez l'équipe de ClicketPaf pour toute question, idée, ou demande d'information." />
-                <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+                <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
             </Helmet>
 
             <Navbar />

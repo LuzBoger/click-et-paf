@@ -92,6 +92,7 @@ const Articles = () => {
                   src={article.image}
                   alt={article.title}
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
                 <div className="p-6">
                   <h3 className="text-lg font-bold text-gray-800">{article.title}</h3>

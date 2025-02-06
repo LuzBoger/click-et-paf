@@ -9,6 +9,8 @@ import FAQ from './components/FAQ';
 import Header from './components/Header';
 import Reviews from './components/Reviews';
 import HowItWorks from './components/HowItWorks';
+import Partenariats from './components/Partnerships';
+import Partnerships from './components/Partnerships';
 
 
 
@@ -22,7 +24,7 @@ function App() {
 content="ClicketPaf vous propose des expériences insolites et amusantes, parfaites pour surprendre vos proches avec des moments uniques et décalés. Découvrez nos services exclusifs." />
         <meta
           name="keywords"
-          content="click,paf,click&paf,click-et-paf,ClicketPaf,concours de gifle, expériences insolites,expériences, expériences surprenantes,gifles, expériences décalées, moments uniques, services, surprises"
+          content="click,paf,click&paf,click-et-paf,ClicketPaf,concours de gifle, expériences insolites,expériences, expériences surprenantes,gifles, expériences décalées, moments uniques, humour,services, surprises"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
@@ -33,7 +35,7 @@ content="ClicketPaf vous propose des expériences insolites et amusantes, parfai
           property="og:description"
           content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
-        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+        <meta property="og:image" content="/images/logo-click-et-paf.webp" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ClicketPaf | Pour des expériences insolites et uniques" />
@@ -41,8 +43,7 @@ content="ClicketPaf vous propose des expériences insolites et amusantes, parfai
           name="twitter:description"
           content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
-        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFGWSB20T3"></script>
+        <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
 
       </Helmet>
       <NavBar />
@@ -57,12 +58,12 @@ content="ClicketPaf vous propose des expériences insolites et amusantes, parfai
         </div>
       </section>
 
-
       <article id="articles" className="py-16 ">
         <ArticleCard />
       </article>
+
       <Reviews />
-      
+      <Partnerships />
       <FAQ />
 
       <Footer />

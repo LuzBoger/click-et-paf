@@ -22,11 +22,11 @@ const LegalMentions = () => {
           content="Consultez les mentions légales du site ClicketPaf, incluant des informations sur l'éditeur, l'hébergement, la protection des données et plus encore."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+        <meta property="og:image" content="/images/logo-click-et-paf.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mentions Légales | ClicketPaf" />
         <meta name="twitter:description" content="Consultez les mentions légales du site ClicketPaf, incluant des informations sur l'éditeur, l'hébergement, la protection des données et plus encore." />
-        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+        <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
       </Helmet>
 
       <Navbar />

@@ -19,11 +19,11 @@ const CGU = () => {
         <meta property="og:title" content="Conditions Générales d'Utilisation | ClicketPaf" />
         <meta property="og:description" content="Consultez les Conditions Générales d'Utilisation du site ClicketPaf pour comprendre les règles et engagements d'utilisation." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+        <meta property="og:image" content="/images/logo-click-et-paf.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Conditions Générales d'Utilisation | ClicketPaf" />
         <meta name="twitter:description" content="Consultez les Conditions Générales d'Utilisation du site ClicketPaf pour comprendre les règles et engagements d'utilisation." />
-        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+        <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
       </Helmet>
 
       <Navbar />

@@ -105,6 +105,7 @@ const Article = () => {
               alt={article.imageTitle || article.title}
               title={article.imageTitle || article.title}
               className="w-full rounded-lg shadow-xl mb-6"
+              loading="lazy"
             />
           </header>
 

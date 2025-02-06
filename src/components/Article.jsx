@@ -14,7 +14,8 @@ const Article = (item) => {
                     title={article.title}
                     width="300px"
                     height="300px"
-                    className="w-full object-cover "
+                    className="w-full object-cover"
+                    loading="lazy"
                 />
 
                 <a href={`#${article.id}`} title={`Lire l'article ${article.title}`} className="mx-4">
