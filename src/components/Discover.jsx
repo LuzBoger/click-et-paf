@@ -8,12 +8,11 @@ const Discover = () => {
 
         <div className="mt-12 bg-gray-50 p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            L'Histoire de Click-et-Paf : Comment tout a commencé ?
+            L'Histoire de ClicketPaf : Comment tout a commencé ?
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            L'idée a germé dans un cerveau légèrement déjanté. Un soir, une simple question : "Pourquoi ne pas ajouter un peu de folie dans les vies des gens ?" Et voilà, Click-et-Paf est né ! De l'idée originale à un service qui s'est rapidement transformé en phénomène, découvrez l'incroyable histoire de notre aventure.
+            L'idée a germé dans un cerveau légèrement déjanté. Un soir, une simple question : "Pourquoi ne pas ajouter un peu de folie dans les vies des gens ?" Et voilà, ClicketPaf est né ! De l'idée originale à un service qui s'est rapidement transformé en phénomène, découvrez l'incroyable histoire de notre aventure.
           </p>
-
           <p className="text-lg text-gray-700 mb-6">
             De l'art de recevoir une gifle "thérapeutique" à la création de services plus fous les uns que les autres, notre équipe a toujours eu un seul but : vous faire rire, surprendre, et offrir des souvenirs mémorables. Ne soyez pas timide, rejoignez notre aventure et laissez-vous surprendre !
           </p>
@@ -27,32 +26,60 @@ const Discover = () => {
           </Link>
         </div>
 
-        <h2 id="discover-section" className="text-3xl font-semibold text-gray-800 mb-6 mt-16">
-          Pourquoi choisir Click-et-Paf ?
-        </h2>
+        <h2 id="discover-section" className="text-3xl font-extrabold text-gray-800 mb-8 mt-16">
+  Pourquoi choisir ClicketPaf ?
+</h2>
 
-        <p className="text-lg text-gray-700 mb-8">
-          Chez Click-et-Paf, on ne se contente pas de vous offrir des services ordinaires. Nous vous proposons des expériences aussi mémorables qu'absurdes, créées spécialement pour ajouter du fun à votre quotidien. Que vous soyez à la recherche de moments cocasses ou de souvenirs mémorables, nous avons ce qu'il vous faut !
-        </p>
+<p className="text-lg text-gray-700 mb-12 max-w-none mx-auto px-4 sm:px-6 lg:px-8">
+Chez ClicketPaf, on ne se contente pas de vous offrir une simple activité. On vous propose de vivre des moments inoubliables et complètement décalés. Si vous avez envie d'un instant original et fun, vous êtes au bon endroit !
+</p>
 
-        <div className="flex justify-center gap-8">
-          <div className="bg-white shadow-lg p-6 rounded-lg max-w-xs hover:shadow-xl transition-shadow duration-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Un Concept Unique</h3>
-            <p className="text-gray-600">
-              Nos gifles bien réelles et nos expériences uniques vous plongent dans une aventure inattendue. Pourquoi faire comme tout le monde, quand on peut faire rire tout le monde avec une gifle bien placée ? Une idée folle ? Oui, mais qui a dit qu'on ne pouvait pas ajouter de l'absurde à sa vie ?
-            </p>
-          </div>
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 px-4 sm:px-6 lg:px-8">
+  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+    <div className="text-blue-600 mb-4">
+      <i className="fas fa-star text-4xl"></i>
+    </div>
+    <h4 className="text-xl font-semibold text-gray-800 mb-4">Vivez des moments incroyables</h4>
+    <p className="text-gray-600">
+      Avec nos gifles surprises et autres expériences insolites, vous vivrez des moments inoubliables qui vous feront rire à coup sûr.
+    </p>
+  </div>
 
-          <div className="bg-white shadow-lg p-6 rounded-lg max-w-xs hover:shadow-xl transition-shadow duration-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Des Souvenirs Inoubliables</h3>
-            <p className="text-gray-600">
-              Chaque moment passé avec Click-et-Paf est une aventure, un souvenir épique à partager. Et ce n'est pas qu'une gifle, c'est un moment qui restera dans les mémoires. Offrez une expérience unique remplie d'humour et vous ferez rire vos amis pendant des années, jusqu'à ce que même eux vous réclament une nouvelle gifle (ou une autre expérience, à vous de choisir !).
-            </p>
-          </div>
-        </div>
+  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+    <div className="text-pink-500 mb-4">
+      <i className="fas fa-photo-video text-4xl"></i>
+    </div>
+    <h4 className="text-xl font-semibold text-gray-800 mb-4">Créez des souvenirs inoubliables</h4>
+    <p className="text-gray-600">
+      Nos services vous permettent de créer des souvenirs précieux à partager avec vos proches, des instants de joie et de complicité.
+    </p>
+  </div>
+
+  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+    <div className="text-blue-600 mb-4">
+      <i className="fas fa-cogs text-4xl"></i>
+    </div>
+    <h4 className="text-xl font-semibold text-gray-800 mb-4">Profitez d'un service personnalisé</h4>
+    <p className="text-gray-600">
+      Pour une expérience sur-mesure, nous vous offrons des activités adaptées à vos envies et à vos besoins, pour des moments à votre image.
+    </p>
+  </div>
+
+  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+    <div className="text-red-500 mb-4">
+      <i className="fas fa-users text-4xl"></i>
+    </div>
+    <h4 className="text-xl font-semibold text-gray-800 mb-4">Rapprochez-vous de vos proches</h4>
+    <p className="text-gray-600">
+      Nos activités fun et décalées sont parfaites pour renforcer les liens entre amis, famille ou collègues, et passer des moments mémorables ensemble.
+    </p>
+  </div>
+</div>
+
+
       </div>
     </section>
   );
-}
+};
 
 export default Discover;

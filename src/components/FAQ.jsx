@@ -19,14 +19,14 @@ const FAQ = () => {
             onClick={() => toggleQuestion(1)}
           >
             <h3 className="text-lg font-semibold text-gray-800 flex justify-between items-center">
-              Qu'est-ce que Click-et-Paf ?{" "}
+              Qu'est-ce que ClicketPaf ?{" "}
               <span className="text-gray-500">
                 {openQuestion === 1 ? "–" : "+"}
               </span>
             </h3>
             {openQuestion === 1 && (
               <p className="text-gray-600 mt-2">
-                Click-et-Paf est une soltion vous proposant plusierus services,
+                ClicketPaf est une soltion vous proposant plusierus services,
                  comme recevoir une gifle (réelle, avec consentement), en donné une, ou encore apprendre à en donner.   
               </p>
             )}
@@ -123,7 +123,7 @@ const FAQ = () => {
             onClick={() => toggleQuestion(4)}
           >
             <h3 className="text-lg font-semibold text-gray-800 flex justify-between items-center">
-              Où peut-on vivre l'expérience Click-et-Paf ?{" "}
+              Où peut-on vivre l'expérience ClicketPaf ?{" "}
               <span className="text-gray-500">
                 {openQuestion === 4 ? "–" : "+"}
               </span>

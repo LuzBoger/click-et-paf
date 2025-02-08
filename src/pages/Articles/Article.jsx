@@ -6,8 +6,8 @@ import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
 const Article = () => {
-  const { slug } = useParams();
-  const article = allArticles.find((item) => item.slug === slug);
+  const { category, slug } = useParams();
+  const article = allArticles.find(a => a.category === category && a.slug === slug);
 
   if (!article) {
     return (
@@ -23,27 +23,27 @@ const Article = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog Click-et-Paf</title>
+        <title>{article.title}</title>
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
         <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content={'Moussi Sid-Ahmed'} />
+        <meta name="author" content={`${article.author}`} />
         <meta name="robots" content="index, follow" />
-        
-        <meta property="og:url" content={`http://click-et-paf.com/article/${article.slug}`} />
+
+        <meta property="og:url" content={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.content.slice(0, 150) + '...'} />
         <meta property="og:image" content={article.image} />
         <meta property="og:author" content={'Moussi Sid-Ahmed'} />
         <meta property="og:type" content="article" />
-        
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.content.slice(0, 150) + '...'} />
         <meta name="twitter:image" content={article.image} />
-        <meta name="twitter:creator" content={'Moussi Sid-Ahmed'} />
-        
-        <link rel="canonical" href={`http://click-et-paf.com/article/${article.slug}`} />
+        <meta name="twitter:creator" content={`${article.author}`} />
+
+        <link rel="canonical" href={`https://click-et-paf.com/blog/${article.category}/${article.slug}`} />
 
         <script type="application/ld+json">
           {`
@@ -58,10 +58,10 @@ const Article = () => {
               },
               "datePublished": "${article.date}",
               "image": "${article.image}",
-              "url": "http://click-et-paf.com/article/${article.slug}",
+              "url": "http://click-et-paf.com/blog/${article.category}/${article.slug}",
               "publisher": {
                 "@type": "Organization",
-                "name": "Click-et-Paf"
+                "name": "ClicketPaf"
               }
             }
           `}
@@ -69,16 +69,40 @@ const Article = () => {
       </Helmet>
 
       <NavBar />
+      <nav className="bg-gray-200 py-3">
+        <div className="container mx-auto px-6">
+          <ul className="flex text-sm text-gray-700">
+            <li>
+              <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+                <span>Accueil</span>
+              </a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <a href="http://click-et-paf.com/blog" className="hover:text-blue-500">
+                <span>Blog</span>
+              </a>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">{article.category}</span>
+              <span className="mx-2">/</span>
+            </li>
+            <li>
+              <span className="hover:text-blue-500">{article.slug}</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      <main className="px-6 py-12 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-12 mb-12"> 
+      <main className="px-6 py-12 max-w-3xl mx-auto bg-white shadow-lg rounded-lg mt-12 mb-12">
         <article>
           <header className="mb-8">
-            
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">{article.title}</h1>
-          
+
             <img
               src={article.image}
-              alt={article.imageTitle || article.title}  
+              alt={article.imageTitle || article.title}
               title={article.imageTitle || article.title}
               className="w-full rounded-lg shadow-xl mb-6"
             />
@@ -91,35 +115,10 @@ const Article = () => {
               </p>
             ))}
           </section>
-
-          <footer className="mt-12">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Articles connexes</h2>
-            <ul className="list-disc list-inside space-y-4 text-gray-700">
-              {allArticles
-                .filter((item) => item.id !== article.id)
-                .slice(0, 3) 
-                .map((related) => (
-                  <li key={related.id} className="hover:text-blue-600 transition-all duration-300">
-                    <a href={`/article/${related.slug}`} className="text-xl font-medium">
-                      {related.title}
-                    </a>
-                  </li>
-                ))}
-            </ul>
-
-            <div className="mt-8 text-center">
-              <a
-                href="/articles"
-                className="text-blue-600 hover:underline text-lg"
-              >
-                Retour à la liste des articles
-              </a>
-            </div>
-          </footer>
         </article>
       </main>
 
-      <Footer />
+      {/* Suppression du Footer */}
     </div>
   );
 };

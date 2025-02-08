@@ -9,20 +9,35 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Helmet>
-        <title>Services de Gifles Thérapeutiques et Expériences Insolites | Click-et-Paf</title>
+        <title>Services de Gifles et Expériences Insolites | ClicketPaf</title>
         <meta 
           name="description" 
           content="Découvrez nos services de gifles thérapeutiques et expériences insolites. Des moments uniques et mémorables garantis par des professionnels certifiés." 
         />
         <meta 
           name="keywords" 
-          content="gifle thérapeutique, gifle cinématographique, expérience insolite, service de gifle, click et paf, thérapy, acting" 
+          content="gifle thérapeutique, gifle cinématographique, expérience insolite, service de gifle,click,paf,click&paf,click-et-paf,clicketpaf, thérapy, acting" 
         />
-        <meta property="og:title" content="Services de Gifles Thérapeutiques | Click-et-Paf" />
+        <meta property="og:title" content="Services de Gifles | ClicketPaf" />
         <meta property="og:description" content="Découvrez nos services de gifles thérapeutiques et expériences insolites. Des moments uniques et mémorables garantis." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://click-et-paf.com/services" />
         <link rel="canonical" href="https://click-et-paf.com/services" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Services de Gifles & Expériences Insolites",
+            "description": "Découvrez nos services de gifles thérapeutiques et expériences insolites pour des moments uniques.",
+            "provider": {
+              "@type": "Organization",
+              "name": "ClicketPaf",
+              "url": "https://click-et-paf.com"
+            },
+            "areaServed": "France"
+          })}
+        </script>
       </Helmet>
 
       <NavBar />
