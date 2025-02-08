@@ -128,6 +128,13 @@
   </url>
 
   <url>
+    <loc>https://www.click-et-paf.com/blog/technologie/metavers-et-gifles-virtuelles-click-et-paf-revolutionne-la-realite-virtuelle</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.click-et-paf.com/contact</loc>
     <lastmod>2025-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -151,6 +158,20 @@
   <url>
     <loc>https://www.click-et-paf.com/cgu</loc>
     <lastmod>2025-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/environnement/la-gifle-ecologique-click-et-paf-sengage-pour-la-planete</loc>
+    <lastmod>2025-02-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/innovation/intelligence-artificielle-click-et-paf-devoile-son-gifleur-robot</loc>
+    <lastmod>2025-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
