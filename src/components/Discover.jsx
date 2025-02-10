@@ -26,7 +26,7 @@ const Discover = () => {
           </Link>
         </div>
 
-        <h2 id="discover-section" className="text-3xl font-extrabold text-gray-800 mb-8 mt-16">
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 mt-16">
   Pourquoi choisir ClicketPaf ?
 </h2>
 
@@ -39,7 +39,7 @@ Chez ClicketPaf, on ne se contente pas de vous offrir une simple activité. On v
     <div className="text-blue-600 mb-4">
       <i className="fas fa-star text-4xl"></i>
     </div>
-    <h4 className="text-xl font-semibold text-gray-800 mb-4">Vivez des moments incroyables</h4>
+    <h3 className="text-xl font-semibold text-gray-800 mb-4">Vivez des moments incroyables</h3>
     <p className="text-gray-600">
       Avec nos gifles surprises et autres expériences insolites, vous vivrez des moments inoubliables qui vous feront rire à coup sûr.
     </p>
@@ -49,7 +49,7 @@ Chez ClicketPaf, on ne se contente pas de vous offrir une simple activité. On v
     <div className="text-pink-500 mb-4">
       <i className="fas fa-photo-video text-4xl"></i>
     </div>
-    <h4 className="text-xl font-semibold text-gray-800 mb-4">Créez des souvenirs inoubliables</h4>
+    <h3 className="text-xl font-semibold text-gray-800 mb-4">Créez des souvenirs inoubliables</h3>
     <p className="text-gray-600">
       Nos services vous permettent de créer des souvenirs précieux à partager avec vos proches, des instants de joie et de complicité.
     </p>
@@ -59,7 +59,7 @@ Chez ClicketPaf, on ne se contente pas de vous offrir une simple activité. On v
     <div className="text-blue-600 mb-4">
       <i className="fas fa-cogs text-4xl"></i>
     </div>
-    <h4 className="text-xl font-semibold text-gray-800 mb-4">Profitez d'un service personnalisé</h4>
+    <h3 className="text-xl font-semibold text-gray-800 mb-4">Profitez d'un service personnalisé</h3>
     <p className="text-gray-600">
       Pour une expérience sur-mesure, nous vous offrons des activités adaptées à vos envies et à vos besoins, pour des moments à votre image.
     </p>
@@ -69,7 +69,7 @@ Chez ClicketPaf, on ne se contente pas de vous offrir une simple activité. On v
     <div className="text-red-500 mb-4">
       <i className="fas fa-users text-4xl"></i>
     </div>
-    <h4 className="text-xl font-semibold text-gray-800 mb-4">Rapprochez-vous de vos proches</h4>
+    <h3 className="text-xl font-semibold text-gray-800 mb-4">Rapprochez-vous de vos proches</h3>
     <p className="text-gray-600">
       Nos activités fun et décalées sont parfaites pour renforcer les liens entre amis, famille ou collègues, et passer des moments mémorables ensemble.
     </p>
