@@ -3,7 +3,7 @@ import { allArticles } from '../data/Articles';
 import Article from '../components/Article';
 
 export const ArticleCard = () => {
-  const recentArticles = allArticles.slice(-3).reverse();
+  const recentArticles = allArticles.slice(-4).reverse();
   return (
     <div className="max-w-screen-xl mx-auto p-16">
 

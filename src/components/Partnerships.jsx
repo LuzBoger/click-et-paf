@@ -4,7 +4,7 @@ const partenaires = [
   {
     name: 'The Gifle Hunt Experience - Un Escape Game Unique avec ClicketPaf',
     description:
-      'Plongez dans un escape game palpitant avec "The Gifle Hunt Experience" ! Chaque énigme résolue vous rapproche de l’objectif, mais attention à chaque erreur : une gifle symbolique vous attend ! Cette collaboration avec ClicketPaf rend l’expérience encore plus immersive et amusante avec des scènes de gifles spectaculaires et des mises en scène interactives. Résolvez des puzzles, évitez les gifles, et faites preuve de stratégie pour sortir victorieux de ce défi unique.',
+      'Plongez dans un escape game palpitant avec "The Gifle Hunt Experience" ! Chaque énigme résolue vous rapproche de l’objectif, mais attention à chaque erreur : une gifle vous attend ! Cette collaboration avec ClicketPaf rend l’expérience encore plus immersive et amusante avec des scènes de gifles spectaculaires et des mises en scène interactives. Résolvez des puzzles, évitez les gifles, et faites preuve de stratégie pour sortir victorieux de ce défi unique.',
     image: '/images/gifle-hunt-experience.webp',
     altText: 'Illustration du partenariat avec Hunt Experience',
     title: 'The Gifle Hunt Experience - Un Escape Game Unique avec ClicketPaf',

@@ -31,7 +31,7 @@ const Contact = () => {
                 <div className="container mx-auto px-6">
                     <ul className="flex text-sm text-gray-700">
                         <li>
-                            <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+                            <a href="https://click-et-paf.com/" className="hover:text-blue-500">
                                 <span>Accueil</span>
                             </a>
                             <span className="mx-2">/</span>
