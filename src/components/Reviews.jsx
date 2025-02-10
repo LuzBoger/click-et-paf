@@ -62,7 +62,7 @@ const Reviews = () => {
                 <div className="flex items-center mb-4">
                   <ul className="flex text-yellow-400" aria-label={`Note : ${review.rating} sur 5`}>
                     {[...Array(review.rating)].map((_, index) => (
-                      <li key={index} role="img" aria-label="Étoile pleine">
+                      <li key={index}>
                       <svg
                         className="w-5 h-5"
                         fill="currentColor"
