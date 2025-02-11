@@ -58,7 +58,7 @@ const LegalMentions = () => {
               <strong className="text-gray-800">Nom de l’entreprise :</strong> ClicketPaf <br />
               <strong className="text-gray-800">Forme juridique :</strong> Société par Actions Simplifiée (SAS) <br />
               <strong className="text-gray-800">Capital social :</strong> 10 000 € <br />
-              <strong className="text-gray-800">Adresse :</strong> 123 Rue de l'Imprévu, 75000 Paris, France <br />
+              <strong className="text-gray-800">Adresse :</strong> 25 rue des Renaudes, 75017 Paris, France <br />
               <strong className="text-gray-800">Téléphone :</strong> +33 1 23 45 67 89 <br />
               <strong className="text-gray-800">Email :</strong> <a href="mailto:contact@click-et-paf.com" className="text-blue-600 hover:underline">contact@click-et-paf.com</a> <br />
               <strong className="text-gray-800">Numéro SIRET :</strong> 123 456 789 00012 <br />

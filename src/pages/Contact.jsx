@@ -112,7 +112,7 @@ const Contact = () => {
                                 </p>
                                 <p className="text-gray-700">
                                     <span className="font-medium text-gray-900">Adresse : </span>
-                                    123 Rue de l'Imprévu, 75000 Paris, France
+                                    25 rue des Renaudes, 75017 Paris, France
                                 </p>
                             </div>
                         </div>
