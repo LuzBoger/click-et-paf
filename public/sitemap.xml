@@ -121,15 +121,37 @@
     <priority>0.7</priority>
   </url>
 
-    <url>
+  <url>
     <loc>https://www.click-et-paf.com/blog/bien-être/reveil-matinal-la-gifle-remplace-le-cafe</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-    <url>
+
+  <url>
     <loc>https://www.click-et-paf.com/blog/éducation/la-gifle-educative-une-nouvelle-methode-pedagogique-controversee</loc>
     <lastmod>2025-02-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/société/la-gifle-en-cas-de-fraude-une-mesure-de-discipline-ou-une-violence-injustifiee</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/société/la-gifle-et-letiquette-sociale-entre-duel-et-respect</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/tendances/quand-la-gifle-remplace-le-baiser</loc>
+    <lastmod>2025-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
