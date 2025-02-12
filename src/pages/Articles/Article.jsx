@@ -54,7 +54,7 @@ const Article = () => {
               "description": "${article.content.slice(0, 150)}...",
               "author": {
                 "@type": "Person",
-                "name": "Moussi Sid-Ahmed"
+                "name": "${article.author}"
               },
               "datePublished": "${article.date}",
               "image": "${article.image}",

@@ -24,7 +24,6 @@ const Contact = () => {
                 <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
             </Helmet>
 
-            <Navbar />
             <Header title="Contactez-Nous" />
 
             <nav className="bg-gray-200 py-3">

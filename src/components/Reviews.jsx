@@ -8,35 +8,35 @@ const Reviews = () => {
       name: "Sophie Martin",
       rating: 5,
       comment: "ClicketPaf a rendu l'anniversaire de mon meilleur ami inoubliable ! Le gifleur professionnel a parfaitement exécuté la surprise. Un service unique qui fait son effet 👋😂",
-      date: "15 Mars 2024"
+      date: "15 Janvier 2025"
     },
     {
       id: 2,
       name: "Thomas Dubois",
       rating: 5,
       comment: "Le service client est exceptionnel ! La gifle était parfaitement dosée, comme demandé. Une expérience client vraiment unique. Je recommande vivement leurs services !",
-      date: "2 Mars 2024"
+      date: "2 Février 2025"
     },
     {
       id: 3,
       name: "Julie Leroux",
       rating: 5,
       comment: "Grâce à ClicketPaf, j'ai offert un moment mémorable à ma famille. Le côté décalé et professionnel de leur service est impressionnant. La meilleure expérience insolite à Paris ! 😄",
-      date: "28 Février 2024"
+      date: "8 Décembre 2024"
     },
     {
       id: 4,
       name: "Marc Dupont",
       rating: 5,
       comment: "ClicketPaf propose vraiment un concept unique en France. J'ai utilisé leur service pour un enterrement de vie de garçon, c'était parfait ! L'équipe est super réactive et professionnelle.",
-      date: "20 Février 2024"
+      date: "20 Décembre 2024"
     },
     {
       id: 5,
       name: "Emma Laurent",
       rating: 5,
       comment: "Quand on m'a parlé de ClicketPaf, je ne savais pas à quoi m'attendre. Mais leur service de gifles surprises est juste génial ! Tout est bien pensé, de la réservation à la livraison de la gifle 👌",
-      date: "15 Février 2024"
+      date: "15 Décembre 2024"
     }
   ];
 

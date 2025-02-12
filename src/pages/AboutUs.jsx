@@ -23,9 +23,22 @@ const AboutUs = () => {
         <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
       </Helmet>
       
-      <Navbar />
       <Header title="Notre Histoire" />
-      
+      <nav className="bg-gray-200 py-3">
+                <div className="container mx-auto px-6">
+                    <ul className="flex text-sm text-gray-700">
+                        <li>
+                            <a href="https://click-et-paf.com/" className="hover:text-blue-500">
+                                <span>Accueil</span>
+                            </a>
+                            <span className="mx-2">/</span>
+                        </li>
+                        <li>
+                            <span className="hover:text-blue-500">Notre Histoire</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
       <section id="discover" className="py-20 bg-gray-100">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
