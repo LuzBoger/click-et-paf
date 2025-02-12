@@ -18,7 +18,7 @@ const Articles = () => {
       <Helmet>
         <title>Blog ClicketPaf</title>
         <meta name="description" content="Explorez notre blog Clicketpaf pour des articles amusants et inspirants sur des expériences insolites" />
-        <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
+        <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, gifle, service de gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:url" content="https://click-et-paf.com/blog" />
@@ -32,8 +32,6 @@ const Articles = () => {
         <meta name="twitter:image" content={featuredArticle.image} />
         <link rel="canonical" href={`https://click-et-paf.com/blog`} />
       </Helmet>
-
-      <Navbar />
 
       <Header title="Blog" subtitle="Découvrez l'ensemble de nos articles" />
 

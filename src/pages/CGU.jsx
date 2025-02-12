@@ -26,7 +26,6 @@ const CGU = () => {
         <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
       </Helmet>
 
-      <Navbar />
       <Header title="Conditions Générales d'Utilisation" />
 
       <nav className="bg-gray-200 py-3">

@@ -20,10 +20,10 @@ function App() {
         <title>ClicketPaf | Pour des expériences insolites et uniques</title>
         <meta
           name="description"
-content="ClicketPaf vous propose des expériences insolites et amusantes, parfaites pour surprendre vos proches avec des moments uniques et décalés. Découvrez nos services exclusifs." />
+          content="ClicketPaf vous propose des expériences insolites et amusantes, parfaites pour surprendre vos proches avec des moments uniques et décalés. Découvrez nos services exclusifs." />
         <meta
           name="keywords"
-          content="click,paf,click&paf,click-et-paf,ClicketPaf,expériences uniques, expériences insolites,expériences, expériences surprenantes,gifles, expériences décalées, moments uniques, humour,services, surprises"
+          content="click,paf,click&paf,click-et-paf,ClicketPaf,expériences uniques, expériences insolites,expériences, expériences surprenantes,gifle, expériences décalées, moments uniques, humour,services, surprise"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
@@ -45,26 +45,17 @@ content="ClicketPaf vous propose des expériences insolites et amusantes, parfai
         <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
 
       </Helmet>
-      <NavBar />
       <Header title="Bienvenue sur ClicketPaf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
-      <Discover />
-      <HowItWorks />
 
-      <section id="services" className="py-16">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-6">Nos Services</h2>
-          <Service />
-        </div>
-      </section>
-
-      <article id="articles" className="py-16 ">
+      <main>
+        <Discover />
+        <HowItWorks />
+        <Service />
         <ArticleCard />
-      </article>
-
-      <Reviews />
-      <Partnerships />
-      <FAQ />
-
+        <Reviews />
+        <Partnerships />
+        <FAQ />
+      </main>
       <Footer />
     </HelmetProvider>
   );
