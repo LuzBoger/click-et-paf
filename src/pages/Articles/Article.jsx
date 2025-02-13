@@ -25,7 +25,7 @@ const Article = () => {
       <Helmet>
         <title>{article.title}</title>
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
-        <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
+        <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle, donner une gifle, recevoir une gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content={`${article.author}`} />
         <meta name="robots" content="index, follow" />
