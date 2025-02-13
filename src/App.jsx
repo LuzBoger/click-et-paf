@@ -23,7 +23,7 @@ function App() {
           content="ClicketPaf vous propose des expériences insolites et amusantes, parfaites pour surprendre vos proches avec des moments uniques et décalés. Découvrez nos services exclusifs." />
         <meta
           name="keywords"
-          content="click,paf,click&paf,click-et-paf,ClicketPaf,expériences uniques, expériences insolites,expériences, expériences surprenantes,gifle, expériences décalées, moments uniques, humour,services, surprise"
+          content="click,paf,click&paf,click-et-paf,ClicketPaf,expériences uniques, expériences insolites,expériences, expériences surprenantes,gifle, expériences décalées, moments uniques, humour, surprise, donner une gifle, recevoir une gifle"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
