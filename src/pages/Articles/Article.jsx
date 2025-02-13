@@ -89,7 +89,7 @@ const Article = () => {
               <span className="mx-2">/</span>
             </li>
             <li>
-              <span className="hover:text-blue-500">{article.slug}</span>
+              <span className="hover:text-blue-500">{article.title}</span>
             </li>
           </ul>
         </div>
@@ -119,7 +119,7 @@ const Article = () => {
         </article>
       </main>
 
-      {/* Suppression du Footer */}
+            <Footer />
     </div>
   );
 };
