@@ -23,8 +23,8 @@
 @layer base {
   html {
     font-family: 'Roboto', sans-serif;
-    background: #1C1C1C;
-    color: white
+    background: #f3f4f6;
+    color: #111827
   }
 
   img {

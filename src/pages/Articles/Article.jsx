@@ -116,10 +116,17 @@ const Article = () => {
               </p>
             ))}
           </section>
+          <a
+            href={`/blog`}
+            className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+            title={`Lire l'article: ${article.title}`}
+          >
+            Revenir vers le blog
+          </a>
         </article>
       </main>
 
-            <Footer />
+      <Footer />
     </div>
   );
 };
