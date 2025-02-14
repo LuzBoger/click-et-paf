@@ -1,6 +1,8 @@
 import React from "react";
 import { allArticles } from "../data/Articles";
 import Article from "../components/Article";
+import { Link } from 'react-router-dom';
+
 
 const ArticleCard = () => {
   const recentArticles = [...allArticles].slice(-4).reverse();
@@ -15,6 +17,15 @@ const ArticleCard = () => {
         {recentArticles.map((article) => (
           <Article key={article.id} item={article} />
         ))}
+      </div>
+      <div className="mt-8 text-center">
+        <Link
+          to="/blog" 
+          onClick={() => window.scrollTo(0, 0)}
+          className="inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700"
+        >
+          Voir tous les articles
+        </Link>
       </div>
     </section>
   );
