@@ -9,7 +9,7 @@ Click-et-Paf est une plateforme web innovante qui révolutionne le concept des e
 1. **Cloner le dépôt :**
    ```bash
    git clone https://github.com/LuzBoger/click-et-paf.git 
-    cd click-et-paf
+   cd click-et-paf
    ```
 
 2. **Installer les dépendances**
