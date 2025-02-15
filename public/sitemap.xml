@@ -210,4 +210,11 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://www.click-et-paf.com/blog/entreprise/les-entreprises-adoptent-la-gifle-pause-la-nouvelle-pause-cafe</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
