@@ -239,7 +239,7 @@ Offrez une gifle, un sourire et un moment inoubliable. Que vous soyez à la rech
       La gifle thérapeutique représente une innovation majeure dans le domaine du bien-être. Bien que surprenante au premier abord, cette approche unique proposée par ClicketPaf offre une alternative efficace aux méthodes traditionnelles de gestion du stress.`,
     "image": "/images/therapy.webp",
     "imageTitle": "Séance de gifle thérapeutique professionnelle",
-    "category": "bien-être",
+    "category": "bien-etre",
     "author": "Sofiane Chadili",
     "date": "2025-01-15"
   },
@@ -652,7 +652,7 @@ Offrez une gifle, un sourire et un moment inoubliable. Que vous soyez à la rech
     "content": "ClicketPaf : Pimentez vos fêtes de Noël avec des expériences insolites\n\nNoël est le moment idéal pour surprendre ses proches et partager des éclats de rire. Cette année, laissez tomber les cadeaux traditionnels et adoptez une approche complètement nouvelle avec ClicketPaf, le site qui propose des formules uniques pour rendre vos fêtes inoubliables.\n\nDes Formules Uniques pour des Moments Inoubliables\n\nPlutôt que d'offrir une paire de chaussettes ou un gadget inutile, pourquoi ne pas opter pour une expérience personnalisée ? ClicketPaf propose des prestations originales où vos proches peuvent participer à des jeux interactifs ou même recevoir une gifle, le tout dans un esprit convivial et humoristique.\n\n- Le Duel de Noël : Un jeu compétitif où les participants doivent répondre à des questions de culture générale. Chaque mauvaise réponse est ponctuée d'une gifle.\n- Le Cadeau Surprise : Un membre de la famille reçoit un cadeau mystérieux accompagné d'une expérience insolite.\n- Le Marathon des Rires : Une session de sketches et de défis humoristiques où chacun participe à créer des souvenirs uniques.\n\nPourquoi ClicketPaf Rend vos Noëls Spéciaux\n\nL'originalité des formules ClicketPaf repose sur leur capacité à transformer des moments ordinaires en souvenirs extraordinaires. En optant pour ces services, vous ne faites pas que divertir vos proches : vous créez une expérience partagée qui renforce les liens familiaux.\n\nUn scénario classique pourrait inclure un jeu interactif où les participants doivent ouvrir des cadeaux contenant des instructions pour des actions humoristiques. Par exemple, \"giflez symboliquement votre voisin\" ou \"improvisez une chanson de Noël\". Le résultat ? Des fous rires garantis.\n\nUn Impact Durable\n\nLes événements créés par ClicketPaf ne se limitent pas à l'instant présent. Les photos et vidéos de ces moments deviennent des souvenirs précieux qui seront partagés pendant des années. En outre, ces interactions renforcent l'esprit de Noël en mettant l'accent sur le plaisir et le lien humain.\n\n Une Nouvelle Manière de Célébrer Noël\n\nAvec ClicketPaf, transformez vos fêtes de fin d'année en une aventure pleine de surprises et d'éclats de rire. Adoptez une approche novatrice qui allie humour, interaction et création de souvenirs inoubliables. Faites de ce Noël une célébration à laquelle tout le monde voudra participer !",
     "image": "/images/noel-gifle.webp",
     "imageTitle": "Famille s'amusant avec des défis ClicketPaf autour d'un sapin de Noël.",
-    "category": "fête",
+    "category": "fete",
     "author": "Moussi Sid-Ahmed",
     "date": "2025-01-05"
   },
@@ -710,7 +710,7 @@ Dans un contexte où l'éducation repose de plus en plus sur des principes de bi
     `,
     "image": "/images/gifle-education.webp",
     "imageTitle": "La gifle éducative : méthode radicale ou dérive inquiétante",
-    "category": "éducation",
+    "category": "education",
     "author": "Moussi Sid-Ahmed",
     "date": "2025-02-10"
   },
@@ -764,7 +764,7 @@ En somme, bien que cette méthode de réveil semble être une tendance radicale 
     `,
     "image": "/images/fin-du-café.webp",
     "imageTitle": "La gifle remplace le café",
-    "category": "bien-être",
+    "category": "bien-etre",
     "author": "Moussi Sid-Ahmed",
     "date": "2025-02-10"
   },
@@ -869,7 +869,7 @@ La ligne entre une expression légitime de frustration et une transgression des 
     `,
     "image": "/images/gifle-etiquette-social.webp",
     "imageTitle": "La Gifle à Travers les Âges : Symbolisme, Pouvoir et Culture",
-    "category": "société",
+    "category": "societe",
     "author": "Moussi Sid-Ahmed",
     "date": "2025-02-11"
   },
@@ -927,7 +927,7 @@ Au final, l’usage de la violence, qu’il soit sous forme de gifle ou d’autr
     `,
     "image": "/images/controleur-gifle.webp",
     "imageTitle": "La gifle en cas de fraude",
-    "category": "société",
+    "category": "societe",
     "author": "Moussi Sid-Ahmed",
     "date": "2025-02-11"
   },
