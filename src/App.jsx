@@ -1,9 +1,9 @@
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet} from 'react-helmet';
 // import './App.css';
 import ArticleCard from './components/ArticleCard';
 import Service from './components/Services';
 import Discover from './components/Discover';
-import NavBar from './components/NavBar';
+
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Header from './components/Header';
@@ -15,7 +15,7 @@ import Partnerships from './components/Partnerships';
 
 function App() {
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title>ClicketPaf | Pour des expériences insolites et uniques</title>
         <meta
@@ -57,7 +57,7 @@ function App() {
         <FAQ />
       </main>
       <Footer />
-    </HelmetProvider>
+    </>
   );
 }
 
