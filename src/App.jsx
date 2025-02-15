@@ -28,7 +28,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://click-et-paf.com" />
-        <meta property="og:url" content="https://www.click-et-paf.com" />
+        <meta property="og:url" content="https://click-et-paf.com" />
         <meta property="og:title" content="ClicketPaf | Pour des expériences insolites et uniques" />
         <meta
           property="og:description"
@@ -43,6 +43,7 @@ function App() {
           content="Transformez votre quotidien avec ClicketPaf. Découvrez des expériences uniques, pour ajouter une touche d’absurde à votre vie."
         />
         <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
+        <meta author="ClicketPaf" />
 
       </Helmet>
       <Header title="Bienvenue sur ClicketPaf" subtitle="Faites sensation en offrant des gifles à vos proches !" />
