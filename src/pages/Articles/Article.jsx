@@ -25,7 +25,7 @@ const Article = () => {
       <Helmet>
         <title>{article.title}</title>
         <meta name="description" content={article.content.slice(0, 150) + '...'} />
-        <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle" />
+        <meta name="keywords" content="clicketpaf, click-et-paf, click, paf, surprise, expériences insolites, tendances, service de gifle, gifle, donner une gifle, recevoir une gifle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content={`${article.author}`} />
         <meta name="robots" content="index, follow" />
@@ -54,7 +54,7 @@ const Article = () => {
               "description": "${article.content.slice(0, 150)}...",
               "author": {
                 "@type": "Person",
-                "name": "Moussi Sid-Ahmed"
+                "name": "${article.author}"
               },
               "datePublished": "${article.date}",
               "image": "${article.image}",
@@ -89,7 +89,7 @@ const Article = () => {
               <span className="mx-2">/</span>
             </li>
             <li>
-              <span className="hover:text-blue-500">{article.slug}</span>
+              <span className="hover:text-blue-500">{article.title}</span>
             </li>
           </ul>
         </div>
@@ -105,6 +105,7 @@ const Article = () => {
               alt={article.imageTitle || article.title}
               title={article.imageTitle || article.title}
               className="w-full rounded-lg shadow-xl mb-6"
+              loading="lazy"
             />
           </header>
 
@@ -115,10 +116,17 @@ const Article = () => {
               </p>
             ))}
           </section>
+          <a
+            href={`/blog`}
+            className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+            title={`Lire l'article: ${article.title}`}
+          >
+            Revenir vers le blog
+          </a>
         </article>
       </main>
 
-      {/* Suppression du Footer */}
+      <Footer />
     </div>
   );
 };

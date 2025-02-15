@@ -26,7 +26,7 @@ const FAQ = () => {
             </h3>
             {openQuestion === 1 && (
               <p className="text-gray-600 mt-2">
-                ClicketPaf est une soltion vous proposant plusierus services,
+                ClicketPaf est une soltion vous proposant plusieurs services,
                  comme recevoir une gifle (réelle, avec consentement), en donné une, ou encore apprendre à en donner.   
               </p>
             )}
@@ -65,8 +65,7 @@ const FAQ = () => {
                     ludique.
                   </li>
                   <li>
-                    <strong>La Gifle Sonore :</strong> Une gifle amplifiée pour un effet
-                    sonore hilarant.
+                    <strong>La Gifle de Rupture:</strong> Une gifle pour rompre avec votre partenaire.
                   </li>
                   <li>
                     <strong>La Gifle Mémorable :</strong> Une gifle filmée en slow-motion avec
@@ -104,7 +103,7 @@ const FAQ = () => {
                     <strong>Le Stage de Gifles :</strong> 80€ par participant
                   </li>
                   <li>
-                    <strong>La Gifle Sonore :</strong> 35€
+                    <strong>La Gifle de Rupture:</strong> 35€
                   </li>
                   <li>
                     <strong>La Gifle Mémorable :</strong> 60€, incluant un enregistrement

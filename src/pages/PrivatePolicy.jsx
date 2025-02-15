@@ -19,7 +19,6 @@ const PrivacyPolicy = () => {
                 <link rel="canonical" href="https://click-et-paf.com/mentions-legales" />
             </Helmet>
             
-            <Navbar />
             <Header title="Politique de Confidentialité" />
 
             <nav className="bg-gray-200 py-3">

@@ -26,21 +26,21 @@ export const services = [
     icon: "🎓",
   },
   {
-    title: "La Gifle Sonore",
+    title: "La Gifle de Rupture",
     description:
-      "Transformez la gifle en une expérience multisensorielle avec La Gifle Sonore. Grâce à des micros haute définition et des effets sonores immersifs, chaque gifle résonne d’une manière spectaculaire. Idéale pour capturer des moments drôles et mémorables en vidéo, cette version amplifiée de la gifle vous fera vivre un son unique et intense.",
-    icon: "🔊",
+      "Vous avez besoin de tourner la page avec votre partenaire ? La gifle de rupture est le service parfait pour vous ! Dites adieu à votre relation d’une manière originale et pleine d’humour. Parce qu’une rupture peut être difficile, autant la rendre plus légère avec une touche d'humour",
+    icon: "💔",
   },
   {
     title: "La Gifle Mémorable",
     description:
-      "Faites l’expérience de la gifle sous un angle totalement nouveau avec La Gifle Mémorable. Grâce à la technologie du slow-motion et des effets dramatiques, chaque gifle devient un instant cinématographique. Immortalisez ce moment unique avec des images saisissantes et partagez-le avec vos proches pour qu’ils n’oublient jamais ce souvenir spectaculaire.",
+      "Faites l’expérience de la gifle sous un angle totalement nouveau avec la gifle mémorable. Grâce à la technologie du slow-motion et des effets dramatiques, chaque gifle devient un instant cinématographique. Immortalisez ce moment unique avec des images saisissantes et partagez-le avec vos proches pour qu’ils n’oublient jamais ce souvenir spectaculaire.",
     icon: "🎥",
   },
   {
     title: "La Gifle de Groupe",
     description:
-      "Organisez un événement hors du commun avec vos amis, famille ou collègues grâce à La Gifle de Groupe. Que ce soit pour un enterrement de vie de garçon, un anniversaire ou un team-building, cette expérience collective ajoute de l’amusement et de l’adrénaline à n'importe quelle occasion. Rires et convivialité seront au rendez-vous, le tout dans un cadre sécurisé et avec un animateur pour guider l'événement.",
+      "Organisez un événement hors du commun avec vos amis, famille ou collègues grâce à la gifle de groupe. Que ce soit pour un enterrement de vie de garçon, un anniversaire ou un team-building, cette expérience collective ajoute de l’amusement et de l’adrénaline à n'importe quelle occasion. Rires et convivialité seront au rendez-vous, le tout dans un cadre sécurisé et avec un animateur pour guider l'événement.",
     icon: "🤾‍♂️",
   },
 ];

@@ -5,7 +5,7 @@ const Article = (item) => {
     return (
         <article
             key={article.id}
-            className="border border-gray-800 flex flex-col justify-between max-w-sm rounded-lg overflow-hidden shadow-lg text-gray-900 bg-white"
+            className="border border-gray-100 flex flex-col justify-between max-w-sm rounded-lg overflow-hidden shadow-lg text-gray-900 bg-white"
         >
             <div className="flex flex-col gap-4">
                 <img
@@ -14,7 +14,8 @@ const Article = (item) => {
                     title={article.title}
                     width="300px"
                     height="300px"
-                    className="w-full object-cover "
+                    className="w-full object-cover"
+                    loading="lazy"
                 />
 
                 <a href={`#${article.id}`} title={`Lire l'article ${article.title}`} className="mx-4">
@@ -32,7 +33,7 @@ const Article = (item) => {
                 </span>
                 <a
                     href={`/blog/${article.category}/${article.slug}`}
-                    className="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-800 transition duration-300"
+                    className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
                     title={`Lire l'article: ${article.title}`}
                 >
                     Lire l'article

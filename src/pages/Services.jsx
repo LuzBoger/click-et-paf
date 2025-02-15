@@ -40,12 +40,26 @@ const Services = () => {
         </script>
       </Helmet>
 
-      <NavBar />
-      
+     
       <Header 
         title="Services" 
         subtitle="Des expériences uniques qui marqueront les esprits" 
       />
+            <nav className="bg-gray-200 py-3">
+                <div className="container mx-auto px-6">
+                    <ul className="flex text-sm text-gray-700">
+                        <li>
+                            <a href="https://click-et-paf.com/" className="hover:text-blue-500">
+                                <span>Accueil</span>
+                            </a>
+                            <span className="mx-2">/</span>
+                        </li>
+                        <li>
+                            <span className="hover:text-blue-500">Nos Services</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-3xl mx-auto text-center mb-16">

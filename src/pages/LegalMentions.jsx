@@ -22,14 +22,13 @@ const LegalMentions = () => {
           content="Consultez les mentions légales du site ClicketPaf, incluant des informations sur l'éditeur, l'hébergement, la protection des données et plus encore."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+        <meta property="og:image" content="/images/logo-click-et-paf.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mentions Légales | ClicketPaf" />
         <meta name="twitter:description" content="Consultez les mentions légales du site ClicketPaf, incluant des informations sur l'éditeur, l'hébergement, la protection des données et plus encore." />
-        <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+        <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
       </Helmet>
 
-      <Navbar />
       <Header title="Mentions Légales" />
 
       <nav className="bg-gray-200 py-3">
@@ -58,7 +57,7 @@ const LegalMentions = () => {
               <strong className="text-gray-800">Nom de l’entreprise :</strong> ClicketPaf <br />
               <strong className="text-gray-800">Forme juridique :</strong> Société par Actions Simplifiée (SAS) <br />
               <strong className="text-gray-800">Capital social :</strong> 10 000 € <br />
-              <strong className="text-gray-800">Adresse :</strong> 123 Rue de l'Imprévu, 75000 Paris, France <br />
+              <strong className="text-gray-800">Adresse :</strong> 25 rue des Renaudes, 75017 Paris, France <br />
               <strong className="text-gray-800">Téléphone :</strong> +33 1 23 45 67 89 <br />
               <strong className="text-gray-800">Email :</strong> <a href="mailto:contact@click-et-paf.com" className="text-blue-600 hover:underline">contact@click-et-paf.com</a> <br />
               <strong className="text-gray-800">Numéro SIRET :</strong> 123 456 789 00012 <br />

@@ -16,22 +16,21 @@ const Contact = () => {
                 <meta property="og:url" content="https://www.click-et-paf.com/contact" />
                 <meta property="og:title" content="Contactez-Nous | ClicketPaf<" />
                 <meta property="og:description" content="Contactez l'équipe de ClicketPaf pour toute question, idée, ou demande d'information." />
-                <meta property="og:image" content="/images/logo_click_et_paf.webp" />
+                <meta property="og:image" content="/images/logo-click-et-paf.webp" />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Contactez-Nous | ClicketPaf<" />
                 <meta name="twitter:description" content="Contactez l'équipe de ClicketPaf pour toute question, idée, ou demande d'information." />
-                <meta name="twitter:image" content="/images/logo_click_et_paf.webp" />
+                <meta name="twitter:image" content="/images/logo-click-et-paf.webp" />
             </Helmet>
 
-            <Navbar />
             <Header title="Contactez-Nous" />
 
             <nav className="bg-gray-200 py-3">
                 <div className="container mx-auto px-6">
                     <ul className="flex text-sm text-gray-700">
                         <li>
-                            <a href="http://click-et-paf.com/" className="hover:text-blue-500">
+                            <a href="https://click-et-paf.com/" className="hover:text-blue-500">
                                 <span>Accueil</span>
                             </a>
                             <span className="mx-2">/</span>
@@ -112,7 +111,7 @@ const Contact = () => {
                                 </p>
                                 <p className="text-gray-700">
                                     <span className="font-medium text-gray-900">Adresse : </span>
-                                    123 Rue de l'Imprévu, 75000 Paris, France
+                                    25 rue des Renaudes, 75017 Paris, France
                                 </p>
                             </div>
                         </div>

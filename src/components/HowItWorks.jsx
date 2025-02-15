@@ -29,7 +29,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="how-it-works" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-12 text-black">
           Comment ça marche ?

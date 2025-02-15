@@ -10,30 +10,7 @@ const Articles = () => {
   const featuredArticle = allArticles[0];
   const otherArticles = allArticles.slice(1);
 
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "name": "Blog ClicketPaf",
-    "url": "https://click-et-paf.com/blog",
-    "description": "Découvrez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Clicketpaf",
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://click-et-paf.com/blog"
-    },
-    "blogPosts": sortedArticles.map(article => ({
-      "@type": "BlogPosting",
-      "headline": article.title,
-      "image": article.image,
-      "author": article.author,
-      "datePublished": article.date,
-      "url": `https://click-et-paf.com/blog/${article.category}/${article.slug}`,
-      "description": article.content.substring(0, 150)
-    }))
-  };
+
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -41,7 +18,7 @@ const Articles = () => {
       <Helmet>
         <title>Blog ClicketPaf</title>
         <meta name="description" content="Explorez notre blog Clicketpaf pour des articles amusants et inspirants sur des expériences insolites" />
-        <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, service de gifle en ligne, gifle, service de gifle" />
+        <meta name="keywords" content="clicketpaf, click-et-paf,click, paf,services décalés,surprise, expériences insolites,tendances insolites, gifle, service de gifle, humour" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:url" content="https://click-et-paf.com/blog" />
@@ -54,12 +31,7 @@ const Articles = () => {
         <meta name="twitter:description" content="Explorez des articles inspirants sur des services décalés et des expériences uniques sur Clicketpaf." />
         <meta name="twitter:image" content={featuredArticle.image} />
         <link rel="canonical" href={`https://click-et-paf.com/blog`} />
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
       </Helmet>
-
-      <Navbar />
 
       <Header title="Blog" subtitle="Découvrez l'ensemble de nos articles" />
 
@@ -118,12 +90,12 @@ const Articles = () => {
                   src={article.image}
                   alt={article.title}
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
                 <div className="p-6">
                   <h3 className="text-lg font-bold text-gray-800">{article.title}</h3>
                   <p className="mt-2 text-gray-600">{article.content.substring(0, 100)}...</p>
                   <div className="flex items-center justify-between mt-4">
-                    <span className="text-gray-500 text-sm">{article.date}</span>
                     <a
                       href={`/blog/${article.category}/${article.slug}`}
                       className="text-blue-500 hover:underline font-medium"

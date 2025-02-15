@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 const Header = ({ title, subtitle }) => {
   return (
     <header className="bg-gray-800 text-white relative">
+      <NavBar />
       <div className="text-center py-16">
         <div className="relative z-10">
           {title && <h1 className="text-4xl font-bold mb-4">{title}</h1>}
