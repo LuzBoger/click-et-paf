@@ -6,21 +6,20 @@ Click-et-Paf est une plateforme web innovante qui révolutionne le concept des e
 
 ## 📦 Installation
 
-1. Clonez le repository
-
-    git clone https://github.com/LuzBoger/click-et-paf.git  
-
-
-2. Installez les dépendances
-
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/LuzBoger/click-et-paf.git 
     cd click-et-paf
-    npm install
+   ```
 
-3. Lancez le serveur de développement
-    npm run dev 
-
-4. Ouvrez [http://localhost:5173](http://localhost:5173) dans votre navigateur pour voir le site.
-
+2. **Installer les dépendances**
+   ```bash
+   npm install 
+   ```
+3. **Lancer le serveur de développement**
+   ```bash
+   npm run dev 
+   ```
 
 # Mise en production 🌐
 
